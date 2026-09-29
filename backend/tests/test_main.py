@@ -18,13 +18,16 @@ if str(BASE_DIR) not in sys.path:
 from app.main import app
 from src.prediction_api import PredictionAPI
 
-client = TestClient(app)
+@pytest.fixture(scope="module")
+def client():
+    with TestClient(app) as test_client:
+        yield test_client
 
 
 # -------------------------------------------------------------
 # 1. System Health & Catalog Initialization
 # -------------------------------------------------------------
-def test_system_health():
+def test_system_health(client):
     res = client.get("/health")
     assert res.status_code == 200
     data = res.json()
@@ -33,7 +36,7 @@ def test_system_health():
     assert "94.5%" in data["model_accuracy"]
 
 
-def test_colleges_all_endpoint():
+def test_colleges_all_endpoint(client):
     res = client.get("/colleges/all")
     assert res.status_code == 200
     data = res.json()
@@ -46,7 +49,7 @@ def test_colleges_all_endpoint():
 # -------------------------------------------------------------
 # 2. Cutoff Formula Calculation (Maths + Physics/2 + Chemistry/2)
 # -------------------------------------------------------------
-def test_cutoff_calculation():
+def test_cutoff_calculation(client):
     # 95 Maths + 90 Physics + 90 Chemistry -> 95 + 45 + 45 = 185.00
     res = client.post("/cutoff/calculate", json={"maths": 95, "physics": 90, "chemistry": 90})
     assert res.status_code == 200
@@ -63,7 +66,7 @@ def test_cutoff_calculation():
 # Cutoff: 185.0, Community: BC, Course: CSE ->
 # High: K.L.N., Medium: Sri Krishna, Low: Anna Univ CEG
 # -------------------------------------------------------------
-def test_slide_10_prediction_benchmark():
+def test_slide_10_prediction_benchmark(client):
     payload = {
         "cutoff": 185.0,
         "community": "BC",
@@ -98,7 +101,7 @@ def test_slide_10_prediction_benchmark():
 # 4. Slide 11 College Search & Filter Test Scenario
 # District: Chennai, Max Fees: 2,00,000
 # -------------------------------------------------------------
-def test_slide_11_colleges_search():
+def test_slide_11_colleges_search(client):
     payload = {
         "district": "Chennai",
         "max_fees": 200000
@@ -112,7 +115,7 @@ def test_slide_11_colleges_search():
         assert float(college["tuition_fee_per_year"]) <= 200000
 
 
-def test_single_college_lookup():
+def test_single_college_lookup(client):
     res = client.get("/colleges/0001")
     assert res.status_code == 200
     college = res.json()
@@ -126,7 +129,7 @@ def test_single_college_lookup():
 # -------------------------------------------------------------
 # 5. Slide 13 Side-by-Side Comparison (15+ Parameters)
 # -------------------------------------------------------------
-def test_slide_13_college_comparison():
+def test_slide_13_college_comparison(client):
     payload = {"college_codes": ["0001", "2006", "5901"]}
     res = client.post("/colleges/compare", json=payload)
     assert res.status_code == 200
@@ -140,7 +143,7 @@ def test_slide_13_college_comparison():
 # 6. Slide 11 Rule-Based Scholarship Matcher
 # Income: 1,50,000, Community: SC, First Graduate: True
 # -------------------------------------------------------------
-def test_slide_11_scholarship_matcher():
+def test_slide_11_scholarship_matcher(client):
     payload = {
         "annual_income": 150000,
         "community": "SC",
@@ -157,7 +160,7 @@ def test_slide_11_scholarship_matcher():
     assert any("First Graduate" in n for n in matched_names)
 
 
-def test_all_scholarships_endpoint():
+def test_all_scholarships_endpoint(client):
     res = client.get("/scholarships/all")
     assert res.status_code == 200
     data = res.json()
@@ -167,7 +170,7 @@ def test_all_scholarships_endpoint():
 # -------------------------------------------------------------
 # 7. Slide 7 & 14 ROI Calculator & OLS Trend Forecasting
 # -------------------------------------------------------------
-def test_roi_calculator():
+def test_roi_calculator(client):
     payload = {
         "annual_tuition_fee": 140000,
         "annual_hostel_fee": 75000,
@@ -184,7 +187,7 @@ def test_roi_calculator():
     assert data["roi_percentage"] > 0
 
 
-def test_cutoff_trend_forecasting():
+def test_cutoff_trend_forecasting(client):
     res = client.get("/cutoff/trend/0001?course=CSE&community=BC")
     assert res.status_code == 200
     data = res.json()
@@ -197,7 +200,7 @@ def test_cutoff_trend_forecasting():
 # -------------------------------------------------------------
 # 8. Slide 9 Authentication Specifications
 # -------------------------------------------------------------
-def test_auth_slide_9_specs():
+def test_auth_slide_9_specs(client):
     # Invalid password test
     res_inv = client.post("/auth/login", json={"username": "invalid@test.com", "password": "wrong"})
     assert res_inv.status_code == 401
@@ -223,7 +226,7 @@ def test_auth_slide_9_specs():
 # -------------------------------------------------------------
 # 9. Slide 7 & 8 AI Admission Chatbot (NLP Intent Engine)
 # -------------------------------------------------------------
-def test_chatbot_nlp_engine():
+def test_chatbot_nlp_engine(client):
     # Cutoff formula intent
     res1 = client.post("/chatbot/message", json={"message": "What is the cutoff formula?"})
     assert res1.status_code == 200
@@ -238,7 +241,7 @@ def test_chatbot_nlp_engine():
 # -------------------------------------------------------------
 # 10. Slide 16 Academic References & 11 Chapters Report
 # -------------------------------------------------------------
-def test_academic_references_and_report():
+def test_academic_references_and_report(client):
     res = client.get("/references")
     assert res.status_code == 200
     data = res.json()
@@ -251,7 +254,7 @@ def test_academic_references_and_report():
 # -------------------------------------------------------------
 # 11. Prediction History & Audit Logs (Slide 16)
 # -------------------------------------------------------------
-def test_prediction_history():
+def test_prediction_history(client):
     # 1. Test predicting as guest candidate
     pred_res = client.post("/predict", json={
         "cutoff": 182.5,

@@ -114,11 +114,11 @@ dmypy.json
 Thumbs.db
 
 # Project specific (backend)
-backend/models/*.joblib
 backend/models/*.h5
 backend/models/*.keras
 backend/data/raw/*
 !backend/data/raw/.gitkeep
+!backend/data/raw/tn_colleges_80_plus.json
 backend/data/processed/*
 !backend/data/processed/.gitkeep
 backend/config/*.yaml
