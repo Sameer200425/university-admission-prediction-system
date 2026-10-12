@@ -1,4 +1,8 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000'
+let rawBase = (import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000').trim()
+if (rawBase && !rawBase.startsWith('http://') && !rawBase.startsWith('https://') && !rawBase.startsWith('/')) {
+  rawBase = `https://${rawBase}`
+}
+const API_BASE_URL = rawBase.replace(/\/+$/, '')
 const TOKEN_STORAGE_KEY = 'uaps_token'
 const USER_STORAGE_KEY = 'uaps_user'
 
