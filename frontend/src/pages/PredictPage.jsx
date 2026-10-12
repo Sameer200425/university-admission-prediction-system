@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useSearchParams, useNavigate, Link } from 'react-router-dom'
+import { useAuth } from '../context/AuthContext'
 import { predictAdmission } from '../api'
 import {
   Calculator,
@@ -28,6 +29,7 @@ import ChoiceFillingOptimizer from '../components/ChoiceFillingOptimizer'
 export default function PredictPage({ onOpenCalculator, onSelectCompare, onSelectTrend }) {
   const [searchParams] = useSearchParams()
   const navigate = useNavigate()
+  const { user, openAuth } = useAuth()
 
   // Stepper State (Step 1: Academic Scores, Step 2: Quota & Branch, Step 3: Location & Fees, Step 4: Review)
   const [currentStep, setCurrentStep] = useState(1)
@@ -39,8 +41,18 @@ export default function PredictPage({ onOpenCalculator, onSelectCompare, onSelec
     course: searchParams.get('course') || 'CSE',
     district: searchParams.get('district') || 'All',
     maxFees: searchParams.get('maxFees') || '250000',
-    studentId: 'TNEA-2025-001'
+    studentId: user?.full_name || user?.username || 'Guest Applicant'
   })
+
+  // Synchronize student identity when user logs in or registers
+  useEffect(() => {
+    if (user) {
+      setForm(prev => ({
+        ...prev,
+        studentId: user.full_name || user.username || 'TNEA Registered Applicant'
+      }))
+    }
+  }, [user])
 
   // PCM Live Calculator Helper inside Step 1
   const [usePcmHelper, setUsePcmHelper] = useState(false)
@@ -157,29 +169,33 @@ export default function PredictPage({ onOpenCalculator, onSelectCompare, onSelec
     }
   }
 
-  // Filter colleges based on tab and in-result search
+  // Filter colleges based on in-result search query
   const filterList = (list = []) => {
     let filtered = list
-    if (form.district && form.district !== 'All') {
-      filtered = filtered.filter(c => c.district === form.district)
-    }
-    if (form.maxFees) {
-      filtered = filtered.filter(c => !c.tuition_fee_per_year || c.tuition_fee_per_year <= Number(form.maxFees))
-    }
     if (resultSearch.trim()) {
       const q = resultSearch.toLowerCase()
       filtered = filtered.filter(c =>
-        c.college_name.toLowerCase().includes(q) ||
-        c.college_code.includes(q) ||
+        (c.college_name && c.college_name.toLowerCase().includes(q)) ||
+        (c.college_code && String(c.college_code).includes(q)) ||
         (c.district && c.district.toLowerCase().includes(q))
       )
     }
     return filtered
   }
 
-  const highList = filterList(result?.high_chance || [])
-  const medList = filterList(result?.medium_chance || [])
-  const lowList = filterList(result?.low_chance || [])
+  // Prioritize colleges from the student's preferred district to the top
+  const prioritizePreferredDistrict = (list = []) => {
+    if (!form.district || form.district === 'All') return list
+    return [...list].sort((a, b) => {
+      const aMatch = a.district?.toLowerCase() === form.district?.toLowerCase() ? 1 : 0
+      const bMatch = b.district?.toLowerCase() === form.district?.toLowerCase() ? 1 : 0
+      return bMatch - aMatch
+    })
+  }
+
+  const highList = prioritizePreferredDistrict(filterList(result?.high_chance || []))
+  const medList = prioritizePreferredDistrict(filterList(result?.medium_chance || []))
+  const lowList = prioritizePreferredDistrict(filterList(result?.low_chance || []))
 
   // Calculate overall estimated match index
   const highCount = result?.summary?.high_chance_count || result?.high_chance?.length || 0
@@ -275,6 +291,58 @@ export default function PredictPage({ onOpenCalculator, onSelectCompare, onSelec
             )}
           </div>
         </div>
+      </div>
+
+      {/* User Session Banner (Shows authenticated student or guest prompt) */}
+      <div className={`p-4 rounded-2xl border text-xs flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 ${
+        user
+          ? 'bg-emerald-50/80 border-emerald-200 text-emerald-900'
+          : 'bg-blue-50/80 border-blue-200 text-blue-900'
+      }`}>
+        <div className="flex items-center gap-3">
+          <div className={`w-9 h-9 rounded-xl flex items-center justify-center font-bold shrink-0 ${
+            user ? 'bg-emerald-600 text-white' : 'bg-blue-600 text-white'
+          }`}>
+            {user ? <UserCheck className="w-5 h-5" /> : <UserPlus className="w-5 h-5" />}
+          </div>
+          <div>
+            <p className="font-bold">
+              {user ? (
+                <span>Logged In: <span className="font-extrabold text-emerald-800">{user.full_name || user.username}</span></span>
+              ) : (
+                <span>Browsing as Guest Applicant</span>
+              )}
+            </p>
+            <p className="text-[11px] opacity-80 mt-0.5">
+              {user
+                ? 'Your admission calculations, cutoffs, and choice allotments are saved directly to your account.'
+                : 'Sign in or register with your credentials to personalize predictions and download official allotments.'}
+            </p>
+          </div>
+        </div>
+
+        {!user ? (
+          <div className="flex items-center gap-2 shrink-0">
+            <button
+              type="button"
+              onClick={() => openAuth('login')}
+              className="px-3.5 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-2xs transition cursor-pointer"
+            >
+              Sign In
+            </button>
+            <button
+              type="button"
+              onClick={() => openAuth('register')}
+              className="px-3.5 py-1.5 rounded-xl bg-white hover:bg-slate-50 text-slate-700 font-bold text-xs border border-slate-200 transition cursor-pointer"
+            >
+              Register
+            </button>
+          </div>
+        ) : (
+          <span className="text-[11px] font-bold px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200">
+            Personalized Account Active
+          </span>
+        )}
       </div>
 
       {/* STEPPER NAVIGATION BAR */}
@@ -1060,8 +1128,19 @@ export default function PredictPage({ onOpenCalculator, onSelectCompare, onSelec
               </div>
 
               {highList.length === 0 ? (
-                <div className="p-8 bg-white rounded-xl border border-slate-200 text-center text-xs text-slate-400">
-                  No high-chance colleges match your current search/filter criteria.
+                <div className="p-6 bg-slate-50 rounded-2xl border border-dashed border-slate-300 text-center space-y-2">
+                  <p className="text-xs text-slate-600 font-medium">
+                    No high-chance colleges match your current search criteria.
+                  </p>
+                  {resultSearch && (
+                    <button
+                      type="button"
+                      onClick={() => setResultSearch('')}
+                      className="px-3.5 py-1.5 rounded-lg bg-emerald-600 text-white font-bold text-xs shadow-xs hover:bg-emerald-700 transition cursor-pointer"
+                    >
+                      Clear Search & View All {result?.high_chance?.length || 0} High-Chance Colleges
+                    </button>
+                  )}
                 </div>
               ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -1098,8 +1177,19 @@ export default function PredictPage({ onOpenCalculator, onSelectCompare, onSelec
               </div>
 
               {medList.length === 0 ? (
-                <div className="p-8 bg-white rounded-xl border border-slate-200 text-center text-xs text-slate-400">
-                  No medium-chance colleges match your current search/filter criteria.
+                <div className="p-6 bg-slate-50 rounded-2xl border border-dashed border-slate-300 text-center space-y-2">
+                  <p className="text-xs text-slate-600 font-medium">
+                    No medium-chance colleges match your current search criteria.
+                  </p>
+                  {resultSearch && (
+                    <button
+                      type="button"
+                      onClick={() => setResultSearch('')}
+                      className="px-3.5 py-1.5 rounded-lg bg-amber-600 text-white font-bold text-xs shadow-xs hover:bg-amber-700 transition cursor-pointer"
+                    >
+                      Clear Search & View All {result?.medium_chance?.length || 0} Medium-Chance Colleges
+                    </button>
+                  )}
                 </div>
               ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -1136,8 +1226,19 @@ export default function PredictPage({ onOpenCalculator, onSelectCompare, onSelec
               </div>
 
               {lowList.length === 0 ? (
-                <div className="p-8 bg-white rounded-xl border border-slate-200 text-center text-xs text-slate-400">
-                  No low-chance colleges match your current search/filter criteria.
+                <div className="p-6 bg-slate-50 rounded-2xl border border-dashed border-slate-300 text-center space-y-2">
+                  <p className="text-xs text-slate-600 font-medium">
+                    No competitive reach colleges match your current search criteria.
+                  </p>
+                  {resultSearch && (
+                    <button
+                      type="button"
+                      onClick={() => setResultSearch('')}
+                      className="px-3.5 py-1.5 rounded-lg bg-rose-600 text-white font-bold text-xs shadow-xs hover:bg-rose-700 transition cursor-pointer"
+                    >
+                      Clear Search & View All {result?.low_chance?.length || 0} Reach Colleges
+                    </button>
+                  )}
                 </div>
               ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -1183,8 +1284,8 @@ function ProfessionalCollegeCard({ item, type, studentCutoff, isAdded, onSelectC
     low: 'bg-rose-50 text-rose-800 border-rose-200'
   }
 
-  const prob = item.admission_probability_pct || (type === 'high' ? 92.5 : type === 'med' ? 68.0 : 34.5)
-  const reqCutoff = item.required_cutoff || item.cutoff_benchmark || 180.0
+  const prob = item.probability_percentage || item.admission_probability_pct || (type === 'high' ? 92.5 : type === 'med' ? 68.0 : 34.5)
+  const reqCutoff = item.expected_cutoff || item.required_cutoff || item.cutoff_benchmark || 180.0
   const delta = (studentCutoff - reqCutoff).toFixed(1)
 
   return (
@@ -1192,13 +1293,18 @@ function ProfessionalCollegeCard({ item, type, studentCutoff, isAdded, onSelectC
       <div>
         {/* Top Badges */}
         <div className="flex items-start justify-between gap-2">
-          <div className="flex items-center gap-1.5">
+          <div className="flex items-center gap-1.5 flex-wrap">
             <span className="font-mono text-[11px] font-bold text-slate-700 bg-slate-100 px-2 py-0.5 rounded border border-slate-200">
               TNEA {item.college_code}
             </span>
             {item.nirf_rank && (
               <span className="text-[10px] font-bold text-amber-700 bg-amber-50 border border-amber-200 px-2 py-0.5 rounded-full">
                 NIRF #{item.nirf_rank}
+              </span>
+            )}
+            {item.is_statewide_recommendation && (
+              <span className="text-[9px] font-bold text-blue-700 bg-blue-50 border border-blue-200 px-2 py-0.5 rounded-full">
+                Statewide
               </span>
             )}
           </div>

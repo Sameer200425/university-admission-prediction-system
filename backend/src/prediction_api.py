@@ -159,7 +159,17 @@ class PredictionAPI:
             comm_cutoff = base_cutoffs.get(community, 175.0) + b_offset
             comm_cutoff = round(max(80.0, min(199.5, comm_cutoff)), 2)
 
-            cutoff_diff = round(applicant_cutoff - comm_cutoff, 2)
+            # TNEA Single-Window Counseling Round Calibration:
+            # Round 1: >= 170 | Round 2: 155-169.9 | Round 3: 135-154.9 | Round 4: 80-134.9
+            # Colleges outside top-tier (NIRF > 30 or unranked) adjust cutoffs across subsequent counseling rounds
+            round_relief = 0.0
+            if applicant_cutoff < 162.0:
+                nirf = c.get("nirf_rank")
+                if not nirf or nirf > 30:
+                    round_relief = max(0.0, (162.0 - applicant_cutoff) * 0.88)
+
+            effective_comm_cutoff = round(max(75.0, comm_cutoff - round_relief), 2)
+            cutoff_diff = round(applicant_cutoff - effective_comm_cutoff, 2)
 
             # Machine Learning Inference using trained Random Forest
             if self.is_loaded and self.rf_model is not None:
@@ -169,7 +179,7 @@ class PredictionAPI:
                     course_enc = self.le_course.transform([course])[0] if course in self.le_course.classes_ else 0
 
                     feat = pd.DataFrame(
-                        [[applicant_cutoff, comm_cutoff, cutoff_diff, comm_enc, course_enc, c_enc]],
+                        [[applicant_cutoff, effective_comm_cutoff, cutoff_diff, comm_enc, course_enc, c_enc]],
                         columns=getattr(self.rf_model, "feature_names_in_", None)
                     )
                     pred_class_idx = self.rf_model.predict(feat)[0]
@@ -234,6 +244,67 @@ class PredictionAPI:
                 medium_chance.append(item)
             else:
                 low_chance.append(item)
+
+        # Fallback: If strict district or fee filter returned too few results,
+        # supplement with top statewide colleges so the applicant always has recommendations.
+        if (len(high_chance) == 0 or (len(high_chance) + len(medium_chance)) < 5) and (preferred_districts or max_tuition_fee):
+            existing_codes = set(x["college_code"] for x in high_chance + medium_chance + low_chance)
+            for c in self.colleges:
+                code = str(c.get("code"))
+                if code in existing_codes:
+                    continue
+                c_name = c.get("name")
+                short_name = c.get("short_name")
+                district = c.get("district")
+                tuition = float(c.get("tuition_fee_per_year", 0))
+                avg_placement = float(c.get("avg_placement_lpa", 0))
+
+                base_cutoffs = c.get("base_cutoff_cse", {})
+                comm_cutoff = base_cutoffs.get(community, 175.0) + b_offset
+                comm_cutoff = round(max(80.0, min(199.5, comm_cutoff)), 2)
+
+                round_relief = 0.0
+                if applicant_cutoff < 162.0:
+                    nirf = c.get("nirf_rank")
+                    if not nirf or nirf > 30:
+                        round_relief = max(0.0, (162.0 - applicant_cutoff) * 0.88)
+
+                effective_comm_cutoff = round(max(75.0, comm_cutoff - round_relief), 2)
+                cutoff_diff = round(applicant_cutoff - effective_comm_cutoff, 2)
+
+                if cutoff_diff >= 1.5:
+                    cat = "High Chance"
+                    prob_score = min(99.0, round(85.0 + (cutoff_diff / 15.0) * 14.0, 1))
+                elif cutoff_diff >= -2.5:
+                    cat = "Medium Chance"
+                    prob_score = round(50.0 + ((cutoff_diff + 2.5) / 4.0) * 34.0, 1)
+                else:
+                    cat = "Low Chance"
+                    prob_score = max(5.0, round(49.0 - (abs(cutoff_diff) / 12.0) * 44.0, 1))
+
+                supp_item = {
+                    "college_code": code,
+                    "college_name": c_name,
+                    "short_name": short_name,
+                    "district": district,
+                    "type": c.get("type"),
+                    "tuition_fee_per_year": tuition,
+                    "avg_placement_lpa": avg_placement,
+                    "nirf_rank": c.get("nirf_rank"),
+                    "expected_cutoff": comm_cutoff,
+                    "cutoff_difference": cutoff_diff,
+                    "category": cat,
+                    "probability_percentage": prob_score,
+                    "course": course,
+                    "community": community,
+                    "is_statewide_recommendation": True
+                }
+                if cat == "High Chance":
+                    high_chance.append(supp_item)
+                elif cat == "Medium Chance":
+                    medium_chance.append(supp_item)
+                else:
+                    low_chance.append(supp_item)
 
         # Sort each tier by NIRF / reputation / probability
         high_chance.sort(key=lambda x: (x.get("nirf_rank") or 999, -x["probability_percentage"]))

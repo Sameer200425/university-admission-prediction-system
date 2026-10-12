@@ -128,7 +128,7 @@ export default function Navbar({ onOpenCalculator }) {
                   </div>
                   <div className="text-left">
                     <span className="text-xs font-bold text-slate-800 block leading-tight">
-                      {user.full_name || 'Sameer'}
+                      {user.full_name || user.username || 'Candidate'}
                     </span>
                     <span className="text-[10px] text-slate-500 font-medium block leading-none">
                       {user.is_admin ? 'Administrator' : 'Student Candidate'}
@@ -145,7 +145,7 @@ export default function Navbar({ onOpenCalculator }) {
                 {userDropdownOpen && (
                   <div className="absolute right-0 mt-2 w-52 bg-white rounded-xl shadow-lg border border-slate-200 py-1.5 z-50 animate-fade-in">
                     <div className="px-4 py-2.5 border-b border-slate-100">
-                      <p className="text-xs font-bold text-slate-800">{user.full_name || 'Sameer'}</p>
+                      <p className="text-xs font-bold text-slate-800">{user.full_name || user.username || 'Candidate'}</p>
                       <p className="text-[11px] text-slate-500 truncate mt-0.5">{user.username}</p>
                       <span className="inline-block mt-1 text-[9px] font-bold px-1.5 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-100">
                         {user.is_admin ? 'Admin Verified' : 'TNEA Applicant'}
@@ -254,7 +254,7 @@ export default function Navbar({ onOpenCalculator }) {
               <div className="flex items-center justify-between px-2 text-xs">
                 <div>
                   <span className="text-slate-500 block text-[11px]">Logged in as</span>
-                  <strong className="text-slate-800">{user.full_name || 'Sameer'}</strong>
+                  <strong className="text-slate-800">{user.full_name || user.username || 'Candidate'}</strong>
                 </div>
                 <button
                   onClick={handleLogout}

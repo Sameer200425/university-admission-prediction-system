@@ -5,7 +5,7 @@ const AuthContext = createContext(null)
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(() => {
-    return getStoredUser() || { full_name: 'Sameer', username: 'sameer@admission.tn.edu' }
+    return getStoredUser() || null
   })
   const [showAuthModal, setShowAuthModal] = useState(false)
   const [authMode, setAuthMode] = useState('login')
@@ -28,7 +28,8 @@ export function AuthProvider({ children }) {
       if (res && res.user) {
         setUser(res.user)
       } else {
-        setUser({ full_name: 'Sameer', username })
+        const fallbackName = username.includes('@') ? username.split('@')[0] : username
+        setUser({ full_name: fallbackName, username })
       }
       setShowAuthModal(false)
       return { success: true }

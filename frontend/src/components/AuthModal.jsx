@@ -17,7 +17,7 @@ export default function AuthModal() {
   const [form, setForm] = useState({
     username: '',
     password: '',
-    full_name: 'Sameer'
+    full_name: ''
   })
   const [showPassword, setShowPassword] = useState(false)
 
@@ -33,7 +33,7 @@ export default function AuthModal() {
     if (authMode === 'login') {
       await handleLogin(form.username, form.password)
     } else {
-      await handleRegister(form.username, form.password, form.full_name)
+      await handleRegister(form.username, form.password, form.full_name || form.username)
     }
   }
 
@@ -123,7 +123,7 @@ export default function AuthModal() {
                 type="text"
                 value={form.full_name}
                 onChange={(e) => setForm({ ...form, full_name: e.target.value })}
-                placeholder="e.g. Sameer Khan"
+                placeholder="e.g. Your Full Name"
                 className="w-full px-3.5 py-2.5 rounded-xl input-dark text-xs"
                 required
               />
@@ -136,7 +136,7 @@ export default function AuthModal() {
               type="text"
               value={form.username}
               onChange={(e) => setForm({ ...form, username: e.target.value })}
-              placeholder="sameer@admission.tn.edu"
+              placeholder="e.g. student@admission.tn.edu or Reg No"
               className="w-full px-3.5 py-2.5 rounded-xl input-dark text-xs"
               required
             />

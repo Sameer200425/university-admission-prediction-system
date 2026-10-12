@@ -25,6 +25,7 @@ export default function OfficialAllotmentSlipModal({ isOpen, onClose, result, fo
   })
 
   const candidateId = form?.studentId || '3502210579'
+  const candidateName = form?.candidateName || form?.studentName || (form?.studentId && !form?.studentId.startsWith('TNEA-') ? form?.studentId : 'Registered Candidate')
   const cleanId = String(candidateId).replace(/[^a-zA-Z0-9]/g, '') || '3502210579'
   const refNo = `TNEA-2025-${cleanId}`
 
@@ -319,7 +320,7 @@ export default function OfficialAllotmentSlipModal({ isOpen, onClose, result, fo
         <div>
           <span class="field-label">Candidate ID</span>
           <div class="field-val font-mono">${candidateId}</div>
-          <span class="field-sub">Pathan Sameer Khan (TNEA)</span>
+          <span class="field-sub">${candidateName}</span>
         </div>
         <div>
           <span class="field-label">Normalized Cutoff</span>
@@ -563,7 +564,7 @@ export default function OfficialAllotmentSlipModal({ isOpen, onClose, result, fo
                 <span className="font-bold text-slate-900 font-mono text-sm block mt-0.5">
                   {candidateId}
                 </span>
-                <span className="text-[10px] text-slate-500">Pathan Sameer Khan (TNEA)</span>
+                <span className="text-[10px] text-slate-500">{candidateName}</span>
               </div>
 
               <div>

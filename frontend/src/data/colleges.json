@@ -1,0 +1,6004 @@
+[
+  {
+    "code": "0001",
+    "name": "College of Engineering, Guindy (CEG), Anna University",
+    "short_name": "Anna Univ (CEG)",
+    "district": "Chennai",
+    "type": "University Campus / Government",
+    "established": 1794,
+    "nirf_rank": 14,
+    "naac_grade": "A++",
+    "tuition_fee_per_year": 55000,
+    "hostel_fee_per_year": 45000,
+    "avg_placement_lpa": 12.8,
+    "highest_placement_lpa": 52.0,
+    "placement_pct": 98.5,
+    "top_recruiters": [
+      "Google",
+      "Microsoft",
+      "Amazon",
+      "Cisco",
+      "Qualcomm",
+      "Morgan Stanley"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Civil",
+      "AI&DS",
+      "Biomedical"
+    ],
+    "campus_size_acres": 223,
+    "infrastructure": [
+      "High-Speed Wi-Fi",
+      "Central Library",
+      "Research Labs",
+      "Hostel (Boys/Girls)",
+      "Olympic Track",
+      "Incubation Cell"
+    ],
+    "base_cutoff_cse": {
+      "OC": 198.5,
+      "BC": 196.5,
+      "BCM": 195.0,
+      "MBC": 194.0,
+      "SC": 184.0,
+      "SCA": 178.0,
+      "ST": 170.0
+    }
+  },
+  {
+    "code": "0004",
+    "name": "Madras Institute of Technology (MIT), Anna University",
+    "short_name": "Anna Univ (MIT)",
+    "district": "Chennai",
+    "type": "University Campus / Government",
+    "established": 1949,
+    "nirf_rank": 18,
+    "naac_grade": "A++",
+    "tuition_fee_per_year": 55000,
+    "hostel_fee_per_year": 45000,
+    "avg_placement_lpa": 11.5,
+    "highest_placement_lpa": 44.0,
+    "placement_pct": 97.0,
+    "top_recruiters": [
+      "Amazon",
+      "TCS",
+      "Boeing",
+      "Microsoft",
+      "ISRO",
+      "Zoho"
+    ],
+    "courses": [
+      "Aeronautical",
+      "CSE",
+      "IT",
+      "ECE",
+      "Automobile",
+      "Robotics",
+      "AI&DS"
+    ],
+    "campus_size_acres": 70,
+    "infrastructure": [
+      "Aero Wind Tunnels",
+      "Automobile Hangar",
+      "Hostel",
+      "Digital Library",
+      "Sports Complex"
+    ],
+    "base_cutoff_cse": {
+      "OC": 197.0,
+      "BC": 195.0,
+      "BCM": 193.5,
+      "MBC": 192.0,
+      "SC": 181.0,
+      "SCA": 174.0,
+      "ST": 166.0
+    }
+  },
+  {
+    "code": "1315",
+    "name": "SSN College of Engineering, Kalavakkam",
+    "short_name": "SSN College of Engg",
+    "district": "Chennai",
+    "type": "Autonomous / Self-Financing",
+    "established": 1996,
+    "nirf_rank": 45,
+    "naac_grade": "A++",
+    "tuition_fee_per_year": 175000,
+    "hostel_fee_per_year": 85000,
+    "avg_placement_lpa": 10.2,
+    "highest_placement_lpa": 117.0,
+    "placement_pct": 96.2,
+    "top_recruiters": [
+      "Amazon",
+      "Adobe",
+      "Zoho",
+      "Motorq",
+      "Goldman Sachs",
+      "TCS Digital"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Civil",
+      "Chemical",
+      "Biomedical"
+    ],
+    "campus_size_acres": 250,
+    "infrastructure": [
+      "250-Acre Lush Campus",
+      "Research Centers",
+      "Smart Hostels",
+      "Indoor Stadium",
+      "Solar Powered"
+    ],
+    "base_cutoff_cse": {
+      "OC": 196.0,
+      "BC": 194.0,
+      "BCM": 192.5,
+      "MBC": 190.5,
+      "SC": 177.0,
+      "SCA": 170.0,
+      "ST": 160.0
+    }
+  },
+  {
+    "code": "2006",
+    "name": "PSG College of Technology, Peelamedu",
+    "short_name": "PSG Tech",
+    "district": "Coimbatore",
+    "type": "Govt-Aided / Autonomous",
+    "established": 1951,
+    "nirf_rank": 53,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 85000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 11.0,
+    "highest_placement_lpa": 45.0,
+    "placement_pct": 97.5,
+    "top_recruiters": [
+      "Cisco",
+      "DE Shaw",
+      "Microsoft",
+      "Bosch",
+      "Caterpillar",
+      "TCS"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Robotics",
+      "Production",
+      "Textile"
+    ],
+    "campus_size_acres": 45,
+    "infrastructure": [
+      "Industrial Research Labs",
+      "Central Library",
+      "Hostels",
+      "Gym & Sports",
+      "Center of Excellence"
+    ],
+    "base_cutoff_cse": {
+      "OC": 197.5,
+      "BC": 195.5,
+      "BCM": 194.0,
+      "MBC": 192.5,
+      "SC": 180.0,
+      "SCA": 173.0,
+      "ST": 164.0
+    }
+  },
+  {
+    "code": "2007",
+    "name": "Coimbatore Institute of Technology (CIT)",
+    "short_name": "CIT Coimbatore",
+    "district": "Coimbatore",
+    "type": "Govt-Aided / Autonomous",
+    "established": 1956,
+    "nirf_rank": 90,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 75000,
+    "hostel_fee_per_year": 65000,
+    "avg_placement_lpa": 8.8,
+    "highest_placement_lpa": 38.0,
+    "placement_pct": 94.0,
+    "top_recruiters": [
+      "Bosch",
+      "Oracle",
+      "Zoho",
+      "Accenture",
+      "TCS",
+      "Infosys"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Civil",
+      "Chemical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 40,
+    "infrastructure": [
+      "Computing Centers",
+      "Library",
+      "Hostels",
+      "Sports Pavillion",
+      "Maker Space"
+    ],
+    "base_cutoff_cse": {
+      "OC": 194.5,
+      "BC": 192.5,
+      "BCM": 190.0,
+      "MBC": 188.0,
+      "SC": 172.0,
+      "SCA": 165.0,
+      "ST": 155.0
+    }
+  },
+  {
+    "code": "5008",
+    "name": "Thiagarajar College of Engineering (TCE), Tiruparankundram",
+    "short_name": "TCE Madurai",
+    "district": "Madurai",
+    "type": "Govt-Aided / Autonomous",
+    "established": 1957,
+    "nirf_rank": 85,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 70000,
+    "hostel_fee_per_year": 60000,
+    "avg_placement_lpa": 8.5,
+    "highest_placement_lpa": 35.0,
+    "placement_pct": 93.5,
+    "top_recruiters": [
+      "TVS Motors",
+      "Zoho",
+      "Amazon",
+      "Cognizant",
+      "Qualcomm",
+      "Infosys"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Civil",
+      "Mechatronics",
+      "Data Science"
+    ],
+    "campus_size_acres": 143,
+    "infrastructure": [
+      "Hill-side Campus",
+      "Advanced Computing Lab",
+      "Hostel",
+      "Auditorium",
+      "Incubation Hub"
+    ],
+    "base_cutoff_cse": {
+      "OC": 194.0,
+      "BC": 191.5,
+      "BCM": 189.5,
+      "MBC": 187.0,
+      "SC": 170.0,
+      "SCA": 163.0,
+      "ST": 152.0
+    }
+  },
+  {
+    "code": "2005",
+    "name": "Government College of Technology (GCT), Thadagam Road",
+    "short_name": "GCT Coimbatore",
+    "district": "Coimbatore",
+    "type": "Government / Autonomous",
+    "established": 1945,
+    "nirf_rank": 95,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 40000,
+    "hostel_fee_per_year": 40000,
+    "avg_placement_lpa": 7.8,
+    "highest_placement_lpa": 28.0,
+    "placement_pct": 92.0,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "L&T",
+      "Bosch",
+      "Titan",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Civil",
+      "Production",
+      "Industrial Biotech"
+    ],
+    "campus_size_acres": 90,
+    "infrastructure": [
+      "Govt Subsidized Facilities",
+      "Modern Labs",
+      "Hostels",
+      "Sports Grounds"
+    ],
+    "base_cutoff_cse": {
+      "OC": 193.0,
+      "BC": 190.5,
+      "BCM": 188.0,
+      "MBC": 185.5,
+      "SC": 168.0,
+      "SCA": 160.0,
+      "ST": 150.0
+    }
+  },
+  {
+    "code": "2718",
+    "name": "Sri Krishna College of Technology (SKCT), Kovaipudur",
+    "short_name": "Sri Krishna College of Tech",
+    "district": "Coimbatore",
+    "type": "Autonomous / Self-Financing",
+    "established": 1985,
+    "nirf_rank": 105,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 140000,
+    "hostel_fee_per_year": 75000,
+    "avg_placement_lpa": 6.8,
+    "highest_placement_lpa": 32.0,
+    "placement_pct": 89.5,
+    "top_recruiters": [
+      "Accenture",
+      "Virtusa",
+      "Cognizant",
+      "Wipro",
+      "Hexaware",
+      "Soliton"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Civil",
+      "AI&DS",
+      "Cyber Security"
+    ],
+    "campus_size_acres": 55,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Cloud Computing Labs",
+      "Hostel (AC/Non-AC)",
+      "Cafeteria",
+      "Sports Courts"
+    ],
+    "base_cutoff_cse": {
+      "OC": 187.0,
+      "BC": 184.0,
+      "BCM": 181.5,
+      "MBC": 178.5,
+      "SC": 155.0,
+      "SCA": 148.0,
+      "ST": 138.0
+    }
+  },
+  {
+    "code": "2712",
+    "name": "Kumaraguru College of Technology (KCT), Chinnavedampatti",
+    "short_name": "Kumaraguru (KCT)",
+    "district": "Coimbatore",
+    "type": "Autonomous / Self-Financing",
+    "established": 1984,
+    "nirf_rank": 82,
+    "naac_grade": "A++",
+    "tuition_fee_per_year": 160000,
+    "hostel_fee_per_year": 85000,
+    "avg_placement_lpa": 7.5,
+    "highest_placement_lpa": 36.0,
+    "placement_pct": 92.5,
+    "top_recruiters": [
+      "Robert Bosch",
+      "Amazon",
+      "Infosys",
+      "TCS",
+      "Accenture",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Mechatronics",
+      "Aeronautical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 156,
+    "infrastructure": [
+      "Forge Innovation Center",
+      "High-Performance Lab",
+      "Hostels",
+      "Food Court",
+      "Sports Ground"
+    ],
+    "base_cutoff_cse": {
+      "OC": 191.0,
+      "BC": 188.0,
+      "BCM": 185.5,
+      "MBC": 183.0,
+      "SC": 162.0,
+      "SCA": 155.0,
+      "ST": 145.0
+    }
+  },
+  {
+    "code": "5901",
+    "name": "K.L.N. College of Engineering, Pottapalayam",
+    "short_name": "K.L.N. College of Engg",
+    "district": "Madurai",
+    "type": "Autonomous / Self-Financing",
+    "established": 1994,
+    "nirf_rank": 160,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 115000,
+    "hostel_fee_per_year": 65000,
+    "avg_placement_lpa": 5.2,
+    "highest_placement_lpa": 22.0,
+    "placement_pct": 86.0,
+    "top_recruiters": [
+      "TCS",
+      "Infosys",
+      "Cognizant",
+      "HCL",
+      "Zoho",
+      "TVS"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Automobile",
+      "AI&DS"
+    ],
+    "campus_size_acres": 53,
+    "infrastructure": [
+      "Air-conditioned Auditorium",
+      "Well-equipped Labs",
+      "Hostel",
+      "Library",
+      "Fleet of Buses"
+    ],
+    "base_cutoff_cse": {
+      "OC": 178.0,
+      "BC": 172.0,
+      "BCM": 168.0,
+      "MBC": 165.0,
+      "SC": 140.0,
+      "SCA": 132.0,
+      "ST": 125.0
+    }
+  },
+  {
+    "code": "1399",
+    "name": "Chennai Institute of Technology (CIT Chennai), Sarathy Nagar",
+    "short_name": "CIT Chennai",
+    "district": "Chennai",
+    "type": "Autonomous / Self-Financing",
+    "established": 2010,
+    "nirf_rank": 70,
+    "naac_grade": "A++",
+    "tuition_fee_per_year": 165000,
+    "hostel_fee_per_year": 85000,
+    "avg_placement_lpa": 9.5,
+    "highest_placement_lpa": 48.0,
+    "placement_pct": 96.5,
+    "top_recruiters": [
+      "Amazon",
+      "Cisco",
+      "Pegasystems",
+      "Virtusa",
+      "TCS",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Mechatronics",
+      "AI&DS",
+      "Cyber Security"
+    ],
+    "campus_size_acres": 26,
+    "infrastructure": [
+      "3D Printing COE",
+      "KUKA Robotics Lab",
+      "Hostel",
+      "Cafeteria",
+      "Digital Library"
+    ],
+    "base_cutoff_cse": {
+      "OC": 193.5,
+      "BC": 191.0,
+      "BCM": 188.5,
+      "MBC": 186.0,
+      "SC": 166.0,
+      "SCA": 158.0,
+      "ST": 148.0
+    }
+  },
+  {
+    "code": "1304",
+    "name": "Sri Venkateswara College of Engineering (SVCE), Sriperumbudur",
+    "short_name": "SVCE Sriperumbudur",
+    "district": "Kanchipuram",
+    "type": "Autonomous / Self-Financing",
+    "established": 1985,
+    "nirf_rank": 110,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 145000,
+    "hostel_fee_per_year": 78000,
+    "avg_placement_lpa": 6.9,
+    "highest_placement_lpa": 30.0,
+    "placement_pct": 91.0,
+    "top_recruiters": [
+      "Cognizant",
+      "TCS",
+      "Wipro",
+      "Hyundai",
+      "Samsung",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Civil",
+      "Biotechnology",
+      "Chemical"
+    ],
+    "campus_size_acres": 95,
+    "infrastructure": [
+      "Sprawling Campus",
+      "Biotech Research Lab",
+      "Hostels",
+      "Sports Complex",
+      "Library"
+    ],
+    "base_cutoff_cse": {
+      "OC": 189.5,
+      "BC": 186.5,
+      "BCM": 183.5,
+      "MBC": 180.0,
+      "SC": 158.0,
+      "SCA": 150.0,
+      "ST": 140.0
+    }
+  },
+  {
+    "code": "1219",
+    "name": "Rajalakshmi Engineering College (REC), Thandalam",
+    "short_name": "Rajalakshmi (REC)",
+    "district": "Chennai",
+    "type": "Autonomous / Self-Financing",
+    "established": 1997,
+    "nirf_rank": 86,
+    "naac_grade": "A++",
+    "tuition_fee_per_year": 155000,
+    "hostel_fee_per_year": 82000,
+    "avg_placement_lpa": 7.2,
+    "highest_placement_lpa": 34.0,
+    "placement_pct": 93.0,
+    "top_recruiters": [
+      "TCS",
+      "Wipro",
+      "Infosys",
+      "Virtusa",
+      "Zoho",
+      "Cognizant"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Aeronautical",
+      "AI&DS",
+      "CSBS"
+    ],
+    "campus_size_acres": 48,
+    "infrastructure": [
+      "Idea Factory",
+      "Hostels",
+      "Sports Stadium",
+      "Central Library",
+      "Bus Transport"
+    ],
+    "base_cutoff_cse": {
+      "OC": 190.0,
+      "BC": 187.0,
+      "BCM": 184.0,
+      "MBC": 181.0,
+      "SC": 160.0,
+      "SCA": 152.0,
+      "ST": 142.0
+    }
+  },
+  {
+    "code": "1311",
+    "name": "St. Joseph's College of Engineering, OMR",
+    "short_name": "St. Joseph's Engg",
+    "district": "Chennai",
+    "type": "Autonomous / Self-Financing",
+    "established": 1994,
+    "nirf_rank": 125,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 140000,
+    "hostel_fee_per_year": 75000,
+    "avg_placement_lpa": 6.5,
+    "highest_placement_lpa": 28.0,
+    "placement_pct": 90.5,
+    "top_recruiters": [
+      "Cognizant",
+      "TCS",
+      "Infosys",
+      "Zoho",
+      "Mindtree",
+      "Tech Mahindra"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Chemical",
+      "Biotech",
+      "AI&DS"
+    ],
+    "campus_size_acres": 40,
+    "infrastructure": [
+      "Discipline-Centric Campus",
+      "Mess with Multi-Cuisine",
+      "Hostel",
+      "Auditorium",
+      "Library"
+    ],
+    "base_cutoff_cse": {
+      "OC": 188.0,
+      "BC": 184.5,
+      "BCM": 181.0,
+      "MBC": 178.0,
+      "SC": 154.0,
+      "SCA": 146.0,
+      "ST": 136.0
+    }
+  },
+  {
+    "code": "1113",
+    "name": "R.M.K. Engineering College, Kavaraipettai",
+    "short_name": "R.M.K. Engg College",
+    "district": "Thiruvallur",
+    "type": "Autonomous / Self-Financing",
+    "established": 1995,
+    "nirf_rank": 130,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 140000,
+    "hostel_fee_per_year": 75000,
+    "avg_placement_lpa": 6.4,
+    "highest_placement_lpa": 26.0,
+    "placement_pct": 89.0,
+    "top_recruiters": [
+      "Cognizant",
+      "TCS",
+      "Wipro",
+      "Amazon",
+      "Soliton",
+      "KPIT"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Civil",
+      "AI&DS",
+      "CSBS"
+    ],
+    "campus_size_acres": 60,
+    "infrastructure": [
+      "Eco-friendly Green Campus",
+      "Hostels",
+      "Digital Library",
+      "Sports Complex",
+      "Transport"
+    ],
+    "base_cutoff_cse": {
+      "OC": 187.0,
+      "BC": 183.0,
+      "BCM": 180.0,
+      "MBC": 176.5,
+      "SC": 152.0,
+      "SCA": 144.0,
+      "ST": 134.0
+    }
+  },
+  {
+    "code": "2702",
+    "name": "Bannari Amman Institute of Technology (BIT), Sathyamangalam",
+    "short_name": "Bannari Amman (BIT)",
+    "district": "Erode",
+    "type": "Autonomous / Self-Financing",
+    "established": 1996,
+    "nirf_rank": 78,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 145000,
+    "hostel_fee_per_year": 72000,
+    "avg_placement_lpa": 7.0,
+    "highest_placement_lpa": 35.0,
+    "placement_pct": 91.5,
+    "top_recruiters": [
+      "Zoho",
+      "TCS",
+      "Accenture",
+      "Soliton",
+      "Cognizant",
+      "Bannari Amman Group"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Mechatronics",
+      "Biotech",
+      "AI&DS"
+    ],
+    "campus_size_acres": 181,
+    "infrastructure": [
+      "World-Class Campus",
+      "Maker Lab",
+      "Hostels",
+      "Cricket Ground",
+      "Swimming Pool"
+    ],
+    "base_cutoff_cse": {
+      "OC": 189.0,
+      "BC": 185.0,
+      "BCM": 182.0,
+      "MBC": 179.0,
+      "SC": 156.0,
+      "SCA": 148.0,
+      "ST": 138.0
+    }
+  },
+  {
+    "code": "2711",
+    "name": "Kongu Engineering College, Perundurai",
+    "short_name": "Kongu Engg College",
+    "district": "Erode",
+    "type": "Autonomous / Self-Financing",
+    "established": 1984,
+    "nirf_rank": 102,
+    "naac_grade": "A++",
+    "tuition_fee_per_year": 135000,
+    "hostel_fee_per_year": 68000,
+    "avg_placement_lpa": 6.2,
+    "highest_placement_lpa": 24.0,
+    "placement_pct": 88.5,
+    "top_recruiters": [
+      "Wipro",
+      "TCS",
+      "Infosys",
+      "Hexaware",
+      "TVS",
+      "Hyundai"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Chemical",
+      "Civil",
+      "Food Tech"
+    ],
+    "campus_size_acres": 167,
+    "infrastructure": [
+      "Technology Business Incubator",
+      "Central Computing Facility",
+      "Hostels",
+      "Library"
+    ],
+    "base_cutoff_cse": {
+      "OC": 186.0,
+      "BC": 182.0,
+      "BCM": 179.0,
+      "MBC": 176.0,
+      "SC": 150.0,
+      "SCA": 142.0,
+      "ST": 132.0
+    }
+  },
+  {
+    "code": "4960",
+    "name": "Mepco Schlenk Engineering College, Sivakasi",
+    "short_name": "Mepco Schlenk",
+    "district": "Virudhunagar",
+    "type": "Autonomous / Self-Financing",
+    "established": 1984,
+    "nirf_rank": 115,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 125000,
+    "hostel_fee_per_year": 62000,
+    "avg_placement_lpa": 6.0,
+    "highest_placement_lpa": 22.0,
+    "placement_pct": 89.0,
+    "top_recruiters": [
+      "TCS",
+      "Infosys",
+      "CTS",
+      "Zoho",
+      "L&T",
+      "Bosch"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Civil",
+      "Biomedical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 100,
+    "infrastructure": [
+      "Disciplined Green Campus",
+      "Indoor Stadium",
+      "Hostel",
+      "Central Library",
+      "Research Labs"
+    ],
+    "base_cutoff_cse": {
+      "OC": 185.0,
+      "BC": 180.5,
+      "BCM": 177.0,
+      "MBC": 174.0,
+      "SC": 148.0,
+      "SCA": 140.0,
+      "ST": 130.0
+    }
+  },
+  {
+    "code": "2615",
+    "name": "Government College of Engineering, Karuppur",
+    "short_name": "GCE Salem",
+    "district": "Salem",
+    "type": "Government / Autonomous",
+    "established": 1966,
+    "nirf_rank": 140,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 38000,
+    "hostel_fee_per_year": 38000,
+    "avg_placement_lpa": 5.8,
+    "highest_placement_lpa": 20.0,
+    "placement_pct": 87.0,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "L&T",
+      "Wipro",
+      "JSW",
+      "Steel Plant"
+    ],
+    "courses": [
+      "CSE",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Civil",
+      "Metallurgy"
+    ],
+    "campus_size_acres": 395,
+    "infrastructure": [
+      "Massive Campus",
+      "Govt Subsidized Labs",
+      "Hostels",
+      "Playground",
+      "Library"
+    ],
+    "base_cutoff_cse": {
+      "OC": 187.5,
+      "BC": 183.5,
+      "BCM": 180.0,
+      "MBC": 177.5,
+      "SC": 153.0,
+      "SCA": 145.0,
+      "ST": 135.0
+    }
+  },
+  {
+    "code": "4962",
+    "name": "National Engineering College, Kovilpatti",
+    "short_name": "National Engg College",
+    "district": "Thoothukudi",
+    "type": "Autonomous / Self-Financing",
+    "established": 1984,
+    "nirf_rank": 150,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 115000,
+    "hostel_fee_per_year": 58000,
+    "avg_placement_lpa": 5.4,
+    "highest_placement_lpa": 20.0,
+    "placement_pct": 85.5,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Zoho",
+      "TVS",
+      "Vuram"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Civil",
+      "AI&DS"
+    ],
+    "campus_size_acres": 150,
+    "infrastructure": [
+      "Spacious Labs",
+      "Hostel Facility",
+      "Library",
+      "Seminar Halls",
+      "Gymnasium"
+    ],
+    "base_cutoff_cse": {
+      "OC": 180.0,
+      "BC": 174.0,
+      "BCM": 170.0,
+      "MBC": 167.0,
+      "SC": 142.0,
+      "SCA": 135.0,
+      "ST": 125.0
+    }
+  },
+  {
+    "code": "1112",
+    "name": "R.M.D. Engineering College",
+    "short_name": "R.M.D. Engineering College",
+    "district": "Thiruvallur",
+    "type": "Autonomous / Self-Financing",
+    "established": 1999,
+    "nirf_rank": 140,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 135000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 6.2,
+    "highest_placement_lpa": 24.0,
+    "placement_pct": 90.3,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 29,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 184.0,
+      "BC": 180.9,
+      "BCM": 178.4,
+      "MBC": 177.5,
+      "SC": 160.4,
+      "SCA": 160.2,
+      "ST": 148.9
+    }
+  },
+  {
+    "code": "1317",
+    "name": "St. Joseph's Institute of Technology",
+    "short_name": "St. Joseph's Institute of Technology",
+    "district": "Chennai",
+    "type": "Autonomous / Self-Financing",
+    "established": 2011,
+    "nirf_rank": 179,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 130000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 6.0,
+    "highest_placement_lpa": 22.0,
+    "placement_pct": 89.6,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 63,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 182.5,
+      "BC": 178.1,
+      "BCM": 176.4,
+      "MBC": 177.0,
+      "SC": 162.7,
+      "SCA": 157.7,
+      "ST": 151.5
+    }
+  },
+  {
+    "code": "1306",
+    "name": "Feel Good Engineering College (Meenakshi Sundararajan)",
+    "short_name": "Feel Good Engineering College (Meenakshi Sundararajan)",
+    "district": "Chennai",
+    "type": "Self-Financing",
+    "established": 2001,
+    "nirf_rank": 126,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 120000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.8,
+    "highest_placement_lpa": 18.0,
+    "placement_pct": 89.8,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 80,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 183.0,
+      "BC": 178.9,
+      "BCM": 177.1,
+      "MBC": 176.6,
+      "SC": 160.3,
+      "SCA": 157.5,
+      "ST": 152.7
+    }
+  },
+  {
+    "code": "1307",
+    "name": "Easwari Engineering College, Ramapuram",
+    "short_name": "Easwari Engineering College",
+    "district": "Chennai",
+    "type": "Autonomous / Self-Financing",
+    "established": 1996,
+    "nirf_rank": 76,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 150000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 6.8,
+    "highest_placement_lpa": 28.0,
+    "placement_pct": 92.1,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 29,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 188.0,
+      "BC": 184.4,
+      "BCM": 182.7,
+      "MBC": 182.2,
+      "SC": 169.2,
+      "SCA": 162.7,
+      "ST": 153.6
+    }
+  },
+  {
+    "code": "1319",
+    "name": "Loyola-ICAM College of Engg & Tech (LICET)",
+    "short_name": "Loyola-ICAM College of Engg & Tech (LICET)",
+    "district": "Chennai",
+    "type": "Self-Financing",
+    "established": 2010,
+    "nirf_rank": 88,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 145000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 6.5,
+    "highest_placement_lpa": 25.0,
+    "placement_pct": 91.7,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 111,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 187.0,
+      "BC": 183.7,
+      "BCM": 181.8,
+      "MBC": 181.2,
+      "SC": 168.0,
+      "SCA": 161.7,
+      "ST": 152.2
+    }
+  },
+  {
+    "code": "1114",
+    "name": "SA Engineering College, Thiruverkadu",
+    "short_name": "SA Engineering College",
+    "district": "Chennai",
+    "type": "Autonomous / Self-Financing",
+    "established": 1998,
+    "nirf_rank": 114,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 120000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.2,
+    "highest_placement_lpa": 16.0,
+    "placement_pct": 87.2,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 86,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 177.0,
+      "BC": 174.3,
+      "BCM": 172.4,
+      "MBC": 168.6,
+      "SC": 157.8,
+      "SCA": 153.7,
+      "ST": 141.2
+    }
+  },
+  {
+    "code": "1115",
+    "name": "Sri Sairam Engineering College, West Tambaram",
+    "short_name": "Sri Sairam Engineering College",
+    "district": "Chennai",
+    "type": "Autonomous / Self-Financing",
+    "established": 1995,
+    "nirf_rank": 80,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 145000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 6.6,
+    "highest_placement_lpa": 26.0,
+    "placement_pct": 91.2,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 120,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 186.0,
+      "BC": 182.5,
+      "BCM": 181.8,
+      "MBC": 179.4,
+      "SC": 162.4,
+      "SCA": 161.7,
+      "ST": 150.3
+    }
+  },
+  {
+    "code": "1118",
+    "name": "Velammal Engineering College, Surapet",
+    "short_name": "Velammal Engineering College",
+    "district": "Chennai",
+    "type": "Autonomous / Self-Financing",
+    "established": 1995,
+    "nirf_rank": 149,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 135000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 6.0,
+    "highest_placement_lpa": 22.0,
+    "placement_pct": 90.1,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 54,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 183.5,
+      "BC": 179.2,
+      "BCM": 179.2,
+      "MBC": 175.4,
+      "SC": 160.6,
+      "SCA": 159.0,
+      "ST": 148.1
+    }
+  },
+  {
+    "code": "1120",
+    "name": "Velammal Institute of Technology, Panchetti",
+    "short_name": "Velammal Institute of Technology",
+    "district": "Thiruvallur",
+    "type": "Self-Financing",
+    "established": 2008,
+    "nirf_rank": 153,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 125000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.6,
+    "highest_placement_lpa": 18.0,
+    "placement_pct": 88.5,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 102,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 180.0,
+      "BC": 176.0,
+      "BCM": 173.7,
+      "MBC": 172.7,
+      "SC": 158.6,
+      "SCA": 154.4,
+      "ST": 149.7
+    }
+  },
+  {
+    "code": "1211",
+    "name": "Panimalar Engineering College, Poonamallee",
+    "short_name": "Panimalar Engineering College",
+    "district": "Chennai",
+    "type": "Autonomous / Self-Financing",
+    "established": 2000,
+    "nirf_rank": 73,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 135000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.8,
+    "highest_placement_lpa": 20.0,
+    "placement_pct": 89.0,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 104,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 181.0,
+      "BC": 177.2,
+      "BCM": 176.0,
+      "MBC": 173.6,
+      "SC": 158.5,
+      "SCA": 156.2,
+      "ST": 145.8
+    }
+  },
+  {
+    "code": "1216",
+    "name": "Saveetha Engineering College, Thandalam",
+    "short_name": "Saveetha Engineering College",
+    "district": "Chennai",
+    "type": "Autonomous / Self-Financing",
+    "established": 2001,
+    "nirf_rank": 203,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 140000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 6.0,
+    "highest_placement_lpa": 22.0,
+    "placement_pct": 89.4,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 98,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 182.0,
+      "BC": 179.0,
+      "BCM": 176.0,
+      "MBC": 174.2,
+      "SC": 159.7,
+      "SCA": 157.8,
+      "ST": 148.0
+    }
+  },
+  {
+    "code": "1422",
+    "name": "SRM Valliammai Engineering College, Kattankulathur",
+    "short_name": "SRM Valliammai Engineering College",
+    "district": "Chengalpattu",
+    "type": "Autonomous / Self-Financing",
+    "established": 1999,
+    "nirf_rank": 76,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 135000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.9,
+    "highest_placement_lpa": 20.0,
+    "placement_pct": 89.2,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 79,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 181.5,
+      "BC": 177.8,
+      "BCM": 176.8,
+      "MBC": 173.4,
+      "SC": 161.8,
+      "SCA": 156.9,
+      "ST": 149.2
+    }
+  },
+  {
+    "code": "1432",
+    "name": "Rajalakshmi Institute of Technology, Kuthambakkam",
+    "short_name": "Rajalakshmi Institute of Technology",
+    "district": "Chennai",
+    "type": "Autonomous / Self-Financing",
+    "established": 2008,
+    "nirf_rank": 140,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 130000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.9,
+    "highest_placement_lpa": 20.0,
+    "placement_pct": 88.7,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 97,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 180.5,
+      "BC": 176.6,
+      "BCM": 174.9,
+      "MBC": 172.6,
+      "SC": 158.5,
+      "SCA": 152.7,
+      "ST": 149.5
+    }
+  },
+  {
+    "code": "1450",
+    "name": "Loyola Institute of Technology, Palanchur",
+    "short_name": "Loyola Institute of Technology",
+    "district": "Chennai",
+    "type": "Self-Financing",
+    "established": 2003,
+    "nirf_rank": 126,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 110000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.8,
+    "highest_placement_lpa": 14.0,
+    "placement_pct": 84.0,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 55,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 170.0,
+      "BC": 166.4,
+      "BCM": 166.0,
+      "MBC": 161.8,
+      "SC": 147.9,
+      "SCA": 145.0,
+      "ST": 137.1
+    }
+  },
+  {
+    "code": "1509",
+    "name": "Meenakshi College of Engineering, KK Nagar",
+    "short_name": "Meenakshi College of Engineering",
+    "district": "Chennai",
+    "type": "Self-Financing",
+    "established": 2001,
+    "nirf_rank": 217,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 105000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.6,
+    "highest_placement_lpa": 12.0,
+    "placement_pct": 83.1,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 110,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 168.0,
+      "BC": 164.3,
+      "BCM": 161.6,
+      "MBC": 160.7,
+      "SC": 147.8,
+      "SCA": 140.4,
+      "ST": 134.3
+    }
+  },
+  {
+    "code": "2004",
+    "name": "PSG Institute of Technology and Applied Research",
+    "short_name": "PSG Institute of Technology and Applied Research",
+    "district": "Coimbatore",
+    "type": "Self-Financing",
+    "established": 2014,
+    "nirf_rank": 128,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 160000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 8.2,
+    "highest_placement_lpa": 38.0,
+    "placement_pct": 94.3,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 50,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 193.0,
+      "BC": 190.3,
+      "BCM": 188.2,
+      "MBC": 186.6,
+      "SC": 174.4,
+      "SCA": 167.0,
+      "ST": 157.8
+    }
+  },
+  {
+    "code": "2719",
+    "name": "Sri Ramakrishna Engineering College (SREC)",
+    "short_name": "Sri Ramakrishna Engineering College (SREC)",
+    "district": "Coimbatore",
+    "type": "Autonomous / Self-Financing",
+    "established": 1994,
+    "nirf_rank": 82,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 130000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 6.2,
+    "highest_placement_lpa": 24.0,
+    "placement_pct": 89.8,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 101,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 183.0,
+      "BC": 178.9,
+      "BCM": 177.8,
+      "MBC": 174.6,
+      "SC": 163.6,
+      "SCA": 157.4,
+      "ST": 152.3
+    }
+  },
+  {
+    "code": "2722",
+    "name": "Sri Krishna College of Engineering & Technology (SKCET)",
+    "short_name": "Sri Krishna College of Engineering & Technology (SKCET)",
+    "district": "Coimbatore",
+    "type": "Autonomous / Self-Financing",
+    "established": 1998,
+    "nirf_rank": 196,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 150000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 7.2,
+    "highest_placement_lpa": 32.0,
+    "placement_pct": 92.3,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 34,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 188.5,
+      "BC": 184.7,
+      "BCM": 183.9,
+      "MBC": 182.2,
+      "SC": 167.3,
+      "SCA": 163.0,
+      "ST": 153.2
+    }
+  },
+  {
+    "code": "2726",
+    "name": "SNS College of Technology, Saravanampatti",
+    "short_name": "SNS College of Technology",
+    "district": "Coimbatore",
+    "type": "Autonomous / Self-Financing",
+    "established": 2002,
+    "nirf_rank": 171,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 120000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.2,
+    "highest_placement_lpa": 18.0,
+    "placement_pct": 86.7,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 46,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 176.0,
+      "BC": 172.5,
+      "BCM": 171.1,
+      "MBC": 169.4,
+      "SC": 153.1,
+      "SCA": 149.4,
+      "ST": 143.4
+    }
+  },
+  {
+    "code": "2735",
+    "name": "Karpagam College of Engineering, Othakkalmandapam",
+    "short_name": "Karpagam College of Engineering",
+    "district": "Coimbatore",
+    "type": "Autonomous / Self-Financing",
+    "established": 2000,
+    "nirf_rank": 72,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 125000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.5,
+    "highest_placement_lpa": 20.0,
+    "placement_pct": 87.6,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 88,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 178.0,
+      "BC": 174.8,
+      "BCM": 173.5,
+      "MBC": 170.9,
+      "SC": 158.1,
+      "SCA": 154.5,
+      "ST": 145.6
+    }
+  },
+  {
+    "code": "2709",
+    "name": "Government College of Engineering, Bargur",
+    "short_name": "Government College of Engineering",
+    "district": "Krishnagiri",
+    "type": "Government / Autonomous",
+    "established": 1994,
+    "nirf_rank": 108,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 38000,
+    "hostel_fee_per_year": 55000,
+    "avg_placement_lpa": 5.5,
+    "highest_placement_lpa": 18.0,
+    "placement_pct": 89.4,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 82,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 182.0,
+      "BC": 177.5,
+      "BCM": 177.8,
+      "MBC": 174.7,
+      "SC": 161.1,
+      "SCA": 156.7,
+      "ST": 149.3
+    }
+  },
+  {
+    "code": "2607",
+    "name": "K.S. Rangasamy College of Technology, Tiruchengode",
+    "short_name": "K.S. Rangasamy College of Technology",
+    "district": "Namakkal",
+    "type": "Autonomous / Self-Financing",
+    "established": 1994,
+    "nirf_rank": 73,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 125000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.6,
+    "highest_placement_lpa": 20.0,
+    "placement_pct": 87.6,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 93,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 178.0,
+      "BC": 174.7,
+      "BCM": 173.9,
+      "MBC": 171.4,
+      "SC": 156.8,
+      "SCA": 150.9,
+      "ST": 142.9
+    }
+  },
+  {
+    "code": "2618",
+    "name": "Sona College of Technology, Suramangalam",
+    "short_name": "Sona College of Technology",
+    "district": "Salem",
+    "type": "Autonomous / Self-Financing",
+    "established": 1997,
+    "nirf_rank": 122,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 135000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 6.0,
+    "highest_placement_lpa": 22.0,
+    "placement_pct": 89.0,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 39,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 181.0,
+      "BC": 178.0,
+      "BCM": 176.0,
+      "MBC": 175.5,
+      "SC": 162.7,
+      "SCA": 155.3,
+      "ST": 148.0
+    }
+  },
+  {
+    "code": "2608",
+    "name": "M. Kumarasamy College of Engineering, Thalavapalayam",
+    "short_name": "M. Kumarasamy College of Engineering",
+    "district": "Karur",
+    "type": "Autonomous / Self-Financing",
+    "established": 2000,
+    "nirf_rank": 157,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 120000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.4,
+    "highest_placement_lpa": 18.0,
+    "placement_pct": 87.2,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 35,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 177.0,
+      "BC": 173.3,
+      "BCM": 172.9,
+      "MBC": 171.4,
+      "SC": 153.0,
+      "SCA": 153.0,
+      "ST": 144.9
+    }
+  },
+  {
+    "code": "3805",
+    "name": "Dhanalakshmi Srinivasan Engineering College, Perambalur",
+    "short_name": "Dhanalakshmi Srinivasan Engineering College",
+    "district": "Perambalur",
+    "type": "Autonomous / Self-Financing",
+    "established": 2001,
+    "nirf_rank": 101,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 105000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.8,
+    "highest_placement_lpa": 14.0,
+    "placement_pct": 82.2,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 89,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 166.0,
+      "BC": 162.7,
+      "BCM": 160.1,
+      "MBC": 160.5,
+      "SC": 143.9,
+      "SCA": 140.9,
+      "ST": 130.9
+    }
+  },
+  {
+    "code": "3811",
+    "name": "K. Ramakrishnan College of Engineering, Samayapuram",
+    "short_name": "K. Ramakrishnan College of Engineering",
+    "district": "Tiruchirappalli",
+    "type": "Autonomous / Self-Financing",
+    "established": 2008,
+    "nirf_rank": 152,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 125000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.6,
+    "highest_placement_lpa": 20.0,
+    "placement_pct": 88.0,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 108,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 179.0,
+      "BC": 174.7,
+      "BCM": 173.4,
+      "MBC": 171.9,
+      "SC": 160.7,
+      "SCA": 154.9,
+      "ST": 147.3
+    }
+  },
+  {
+    "code": "3819",
+    "name": "Saranathan College of Engineering, Panjappur",
+    "short_name": "Saranathan College of Engineering",
+    "district": "Tiruchirappalli",
+    "type": "Self-Financing",
+    "established": 1998,
+    "nirf_rank": 169,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 115000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.3,
+    "highest_placement_lpa": 16.0,
+    "placement_pct": 86.7,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 26,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 176.0,
+      "BC": 172.2,
+      "BCM": 170.9,
+      "MBC": 169.9,
+      "SC": 155.3,
+      "SCA": 149.4,
+      "ST": 144.7
+    }
+  },
+  {
+    "code": "3826",
+    "name": "Kongunadu College of Engineering and Technology, Tholurpatti",
+    "short_name": "Kongunadu College of Engineering and Technology",
+    "district": "Tiruchirappalli",
+    "type": "Autonomous / Self-Financing",
+    "established": 2007,
+    "nirf_rank": 137,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 110000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.9,
+    "highest_placement_lpa": 14.0,
+    "placement_pct": 83.5,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 85,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 169.0,
+      "BC": 166.1,
+      "BCM": 163.6,
+      "MBC": 162.2,
+      "SC": 149.8,
+      "SCA": 144.2,
+      "ST": 137.2
+    }
+  },
+  {
+    "code": "4952",
+    "name": "PSNA College of Engineering and Technology, Kothandaraman Nagar",
+    "short_name": "PSNA College of Engineering and Technology",
+    "district": "Dindigul",
+    "type": "Autonomous / Self-Financing",
+    "established": 1984,
+    "nirf_rank": 182,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 125000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.5,
+    "highest_placement_lpa": 20.0,
+    "placement_pct": 87.6,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 39,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 178.0,
+      "BC": 174.1,
+      "BCM": 173.7,
+      "MBC": 171.4,
+      "SC": 159.9,
+      "SCA": 154.0,
+      "ST": 143.4
+    }
+  },
+  {
+    "code": "4953",
+    "name": "SSM Institute of Engineering and Technology, Dindigul",
+    "short_name": "SSM Institute of Engineering and Technology",
+    "district": "Dindigul",
+    "type": "Self-Financing",
+    "established": 2011,
+    "nirf_rank": 75,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 100000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.5,
+    "highest_placement_lpa": 12.0,
+    "placement_pct": 81.3,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 115,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 164.0,
+      "BC": 160.5,
+      "BCM": 158.1,
+      "MBC": 157.1,
+      "SC": 141.5,
+      "SCA": 139.0,
+      "ST": 128.9
+    }
+  },
+  {
+    "code": "4974",
+    "name": "Government College of Engineering, Tirunelveli",
+    "short_name": "Government College of Engineering",
+    "district": "Tirunelveli",
+    "type": "Government / Autonomous",
+    "established": 1981,
+    "nirf_rank": 126,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 38000,
+    "hostel_fee_per_year": 55000,
+    "avg_placement_lpa": 5.6,
+    "highest_placement_lpa": 18.0,
+    "placement_pct": 89.8,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 58,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 183.0,
+      "BC": 179.8,
+      "BCM": 177.9,
+      "MBC": 175.0,
+      "SC": 162.0,
+      "SCA": 157.7,
+      "ST": 150.9
+    }
+  },
+  {
+    "code": "4955",
+    "name": "Francis Xavier Engineering College, Vannarpettai",
+    "short_name": "Francis Xavier Engineering College",
+    "district": "Tirunelveli",
+    "type": "Autonomous / Self-Financing",
+    "established": 2000,
+    "nirf_rank": 77,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 110000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.0,
+    "highest_placement_lpa": 15.0,
+    "placement_pct": 84.5,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 46,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 171.0,
+      "BC": 168.2,
+      "BCM": 165.0,
+      "MBC": 164.7,
+      "SC": 147.4,
+      "SCA": 145.6,
+      "ST": 137.2
+    }
+  },
+  {
+    "code": "4964",
+    "name": "P.S.R. Engineering College, Sevalpatti",
+    "short_name": "P.S.R. Engineering College",
+    "district": "Virudhunagar",
+    "type": "Autonomous / Self-Financing",
+    "established": 1999,
+    "nirf_rank": 162,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 105000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.8,
+    "highest_placement_lpa": 14.0,
+    "placement_pct": 82.7,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 96,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 167.0,
+      "BC": 163.7,
+      "BCM": 162.8,
+      "MBC": 158.8,
+      "SC": 144.6,
+      "SCA": 141.6,
+      "ST": 132.2
+    }
+  },
+  {
+    "code": "4971",
+    "name": "St. Xavier's Catholic College of Engineering, Chunkankadai",
+    "short_name": "St. Xavier's Catholic College of Engineering",
+    "district": "Kanyakumari",
+    "type": "Autonomous / Self-Financing",
+    "established": 1998,
+    "nirf_rank": 157,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 115000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.2,
+    "highest_placement_lpa": 16.0,
+    "placement_pct": 85.8,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 98,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 174.0,
+      "BC": 170.2,
+      "BCM": 168.9,
+      "MBC": 168.1,
+      "SC": 155.0,
+      "SCA": 147.7,
+      "ST": 138.2
+    }
+  },
+  {
+    "code": "5007",
+    "name": "Alagappa Chettiar Government College of Engg (ACGCET)",
+    "short_name": "Alagappa Chettiar Government College of Engg (ACGCET)",
+    "district": "Karaikudi",
+    "type": "Government / Autonomous",
+    "established": 1952,
+    "nirf_rank": 119,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 38000,
+    "hostel_fee_per_year": 55000,
+    "avg_placement_lpa": 6.0,
+    "highest_placement_lpa": 20.0,
+    "placement_pct": 90.8,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 62,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 185.0,
+      "BC": 181.9,
+      "BCM": 180.0,
+      "MBC": 177.4,
+      "SC": 166.0,
+      "SCA": 158.1,
+      "ST": 149.6
+    }
+  },
+  {
+    "code": "5907",
+    "name": "Velammal College of Engineering and Technology, Madurai",
+    "short_name": "Velammal College of Engineering and Technology",
+    "district": "Madurai",
+    "type": "Autonomous / Self-Financing",
+    "established": 2007,
+    "nirf_rank": 77,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 130000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 6.0,
+    "highest_placement_lpa": 22.0,
+    "placement_pct": 89.2,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 26,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 181.5,
+      "BC": 177.5,
+      "BCM": 176.8,
+      "MBC": 173.7,
+      "SC": 158.7,
+      "SCA": 157.0,
+      "ST": 146.3
+    }
+  },
+  {
+    "code": "1516",
+    "name": "Thanthai Periyar Government Institute of Technology",
+    "short_name": "Thanthai Periyar Government Institute of Technology",
+    "district": "Vellore",
+    "type": "Government",
+    "established": 1990,
+    "nirf_rank": 115,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 38000,
+    "hostel_fee_per_year": 55000,
+    "avg_placement_lpa": 5.4,
+    "highest_placement_lpa": 16.0,
+    "placement_pct": 88.5,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 88,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 180.0,
+      "BC": 176.7,
+      "BCM": 175.6,
+      "MBC": 173.5,
+      "SC": 158.5,
+      "SCA": 153.0,
+      "ST": 149.7
+    }
+  },
+  {
+    "code": "1503",
+    "name": "Arunai Engineering College, Tiruvannamalai",
+    "short_name": "Arunai Engineering College",
+    "district": "Tiruvannamalai",
+    "type": "Self-Financing",
+    "established": 1993,
+    "nirf_rank": 216,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 105000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.5,
+    "highest_placement_lpa": 12.0,
+    "placement_pct": 81.8,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 59,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 165.0,
+      "BC": 161.3,
+      "BCM": 160.2,
+      "MBC": 157.5,
+      "SC": 141.5,
+      "SCA": 139.3,
+      "ST": 131.5
+    }
+  },
+  {
+    "code": "1505",
+    "name": "C. Abdul Hakeem College of Engineering & Technology",
+    "short_name": "C. Abdul Hakeem College of Engineering & Technology",
+    "district": "Ranipet",
+    "type": "Self-Financing",
+    "established": 1998,
+    "nirf_rank": 203,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 100000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.4,
+    "highest_placement_lpa": 12.0,
+    "placement_pct": 80.8,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 64,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 163.0,
+      "BC": 158.7,
+      "BCM": 157.2,
+      "MBC": 157.3,
+      "SC": 144.1,
+      "SCA": 136.9,
+      "ST": 131.3
+    }
+  },
+  {
+    "code": "1507",
+    "name": "Ganadipathy Tulsi's Jain Engineering College",
+    "short_name": "Ganadipathy Tulsi's Jain Engineering College",
+    "district": "Vellore",
+    "type": "Self-Financing",
+    "established": 2000,
+    "nirf_rank": 159,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 95000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.2,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 79.5,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 69,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 160.0,
+      "BC": 156.8,
+      "BCM": 154.1,
+      "MBC": 153.4,
+      "SC": 136.4,
+      "SCA": 132.8,
+      "ST": 124.5
+    }
+  },
+  {
+    "code": "1122",
+    "name": "Vel Tech Multi Tech Dr.Rangarajan Dr.Sakunthala Engg College",
+    "short_name": "Vel Tech Multi Tech Dr.Rangarajan Dr.Sakunthala Engg College",
+    "district": "Chennai",
+    "type": "Autonomous / Self-Financing",
+    "established": 1999,
+    "nirf_rank": 190,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 125000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.5,
+    "highest_placement_lpa": 18.0,
+    "placement_pct": 87.6,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 79,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 178.0,
+      "BC": 175.0,
+      "BCM": 172.2,
+      "MBC": 171.5,
+      "SC": 158.3,
+      "SCA": 154.6,
+      "ST": 145.7
+    }
+  },
+  {
+    "code": "1123",
+    "name": "Vel Tech High Tech Dr.Rangarajan Dr.Sakunthala Engg College",
+    "short_name": "Vel Tech High Tech Dr.Rangarajan Dr.Sakunthala Engg College",
+    "district": "Chennai",
+    "type": "Autonomous / Self-Financing",
+    "established": 2002,
+    "nirf_rank": 150,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 115000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.0,
+    "highest_placement_lpa": 15.0,
+    "placement_pct": 84.9,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 87,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 172.0,
+      "BC": 168.8,
+      "BCM": 165.7,
+      "MBC": 164.6,
+      "SC": 149.7,
+      "SCA": 147.0,
+      "ST": 140.7
+    }
+  },
+  {
+    "code": "1128",
+    "name": "R.V.S. College of Engineering and Technology",
+    "short_name": "R.V.S. College of Engineering and Technology",
+    "district": "Coimbatore",
+    "type": "Self-Financing",
+    "established": 2007,
+    "nirf_rank": 93,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 100000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.5,
+    "highest_placement_lpa": 12.0,
+    "placement_pct": 81.8,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 112,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 165.0,
+      "BC": 160.6,
+      "BCM": 160.6,
+      "MBC": 157.9,
+      "SC": 141.6,
+      "SCA": 140.3,
+      "ST": 129.2
+    }
+  },
+  {
+    "code": "1137",
+    "name": "Annai Mira College of Engineering and Technology",
+    "short_name": "Annai Mira College of Engineering and Technology",
+    "district": "Ranipet",
+    "type": "Self-Financing",
+    "established": 2012,
+    "nirf_rank": 144,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 90000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.0,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 78.6,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 76,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 158.0,
+      "BC": 155.3,
+      "BCM": 152.8,
+      "MBC": 150.3,
+      "SC": 136.9,
+      "SCA": 131.5,
+      "ST": 124.5
+    }
+  },
+  {
+    "code": "1209",
+    "name": "Pallavan College of Engineering",
+    "short_name": "Pallavan College of Engineering",
+    "district": "Kanchipuram",
+    "type": "Self-Financing",
+    "established": 1997,
+    "nirf_rank": 150,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 95000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.2,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 79.0,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 31,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 159.0,
+      "BC": 154.5,
+      "BCM": 153.4,
+      "MBC": 150.7,
+      "SC": 135.8,
+      "SCA": 133.7,
+      "ST": 125.2
+    }
+  },
+  {
+    "code": "1213",
+    "name": "S.K.R. Engineering College, Nazarathpet",
+    "short_name": "S.K.R. Engineering College",
+    "district": "Chennai",
+    "type": "Self-Financing",
+    "established": 2001,
+    "nirf_rank": 159,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 100000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.5,
+    "highest_placement_lpa": 12.0,
+    "placement_pct": 81.3,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 43,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 164.0,
+      "BC": 161.0,
+      "BCM": 158.8,
+      "MBC": 156.6,
+      "SC": 140.9,
+      "SCA": 137.7,
+      "ST": 133.1
+    }
+  },
+  {
+    "code": "1217",
+    "name": "Prathyusha Engineering College, Thiruvallur",
+    "short_name": "Prathyusha Engineering College",
+    "district": "Thiruvallur",
+    "type": "Autonomous / Self-Financing",
+    "established": 2001,
+    "nirf_rank": 106,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 110000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.8,
+    "highest_placement_lpa": 14.0,
+    "placement_pct": 83.1,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 117,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 168.0,
+      "BC": 164.0,
+      "BCM": 163.5,
+      "MBC": 161.7,
+      "SC": 146.9,
+      "SCA": 144.8,
+      "ST": 135.6
+    }
+  },
+  {
+    "code": "1225",
+    "name": "St. Peter's College of Engineering and Technology",
+    "short_name": "St. Peter's College of Engineering and Technology",
+    "district": "Chennai",
+    "type": "Self-Financing",
+    "established": 2008,
+    "nirf_rank": 143,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 95000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.2,
+    "highest_placement_lpa": 11.0,
+    "placement_pct": 80.0,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 76,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 161.0,
+      "BC": 157.2,
+      "BCM": 156.8,
+      "MBC": 152.9,
+      "SC": 138.9,
+      "SCA": 136.3,
+      "ST": 125.6
+    }
+  },
+  {
+    "code": "1230",
+    "name": "Apollo Engineering College, Poonamallee",
+    "short_name": "Apollo Engineering College",
+    "district": "Chennai",
+    "type": "Self-Financing",
+    "established": 2010,
+    "nirf_rank": 166,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 95000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.2,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 79.5,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 107,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 160.0,
+      "BC": 156.4,
+      "BCM": 153.8,
+      "MBC": 153.0,
+      "SC": 141.5,
+      "SCA": 133.6,
+      "ST": 129.1
+    }
+  },
+  {
+    "code": "1238",
+    "name": "Gojan School of Business and Technology",
+    "short_name": "Gojan School of Business and Technology",
+    "district": "Chennai",
+    "type": "Self-Financing",
+    "established": 2005,
+    "nirf_rank": 98,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 90000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.0,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 77.2,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 101,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 155.0,
+      "BC": 151.1,
+      "BCM": 149.9,
+      "MBC": 146.7,
+      "SC": 132.2,
+      "SCA": 131.1,
+      "ST": 120.2
+    }
+  },
+  {
+    "code": "1301",
+    "name": "Mohammed Sathak A.J. College of Engineering",
+    "short_name": "Mohammed Sathak A.J. College of Engineering",
+    "district": "Chennai",
+    "type": "Self-Financing",
+    "established": 2001,
+    "nirf_rank": 139,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 105000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.6,
+    "highest_placement_lpa": 12.0,
+    "placement_pct": 82.2,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 90,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 166.0,
+      "BC": 161.7,
+      "BCM": 161.1,
+      "MBC": 157.8,
+      "SC": 144.2,
+      "SCA": 139.6,
+      "ST": 132.3
+    }
+  },
+  {
+    "code": "1309",
+    "name": "Meenakshi Ammal Engineering College, Uthiramerur",
+    "short_name": "Meenakshi Ammal Engineering College",
+    "district": "Kanchipuram",
+    "type": "Self-Financing",
+    "established": 1983,
+    "nirf_rank": 98,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 100000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.4,
+    "highest_placement_lpa": 12.0,
+    "placement_pct": 80.4,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 69,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 162.0,
+      "BC": 158.6,
+      "BCM": 157.2,
+      "MBC": 156.0,
+      "SC": 138.6,
+      "SCA": 135.2,
+      "ST": 130.3
+    }
+  },
+  {
+    "code": "1313",
+    "name": "Sri Venkateswara Institute of Science and Technology",
+    "short_name": "Sri Venkateswara Institute of Science and Technology",
+    "district": "Thiruvallur",
+    "type": "Self-Financing",
+    "established": 2007,
+    "nirf_rank": 117,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 90000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.0,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 77.7,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 85,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 156.0,
+      "BC": 153.3,
+      "BCM": 150.2,
+      "MBC": 149.0,
+      "SC": 134.0,
+      "SCA": 130.6,
+      "ST": 124.2
+    }
+  },
+  {
+    "code": "1321",
+    "name": "Kings Engineering College, Irungattukottai",
+    "short_name": "Kings Engineering College",
+    "district": "Sriperumbudur",
+    "type": "Self-Financing",
+    "established": 2001,
+    "nirf_rank": 184,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 105000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.6,
+    "highest_placement_lpa": 12.0,
+    "placement_pct": 82.7,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 27,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 167.0,
+      "BC": 162.9,
+      "BCM": 161.9,
+      "MBC": 159.4,
+      "SC": 146.2,
+      "SCA": 139.3,
+      "ST": 134.0
+    }
+  },
+  {
+    "code": "1324",
+    "name": "Sri Sai Ram Institute of Technology, West Tambaram",
+    "short_name": "Sri Sai Ram Institute of Technology",
+    "district": "Chennai",
+    "type": "Autonomous / Self-Financing",
+    "established": 2008,
+    "nirf_rank": 179,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 135000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 6.0,
+    "highest_placement_lpa": 22.0,
+    "placement_pct": 89.4,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 97,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 182.0,
+      "BC": 178.3,
+      "BCM": 177.1,
+      "MBC": 174.8,
+      "SC": 161.9,
+      "SCA": 154.1,
+      "ST": 146.2
+    }
+  },
+  {
+    "code": "1405",
+    "name": "Dhanalakshmi College of Engineering, Manimangalam",
+    "short_name": "Dhanalakshmi College of Engineering",
+    "district": "Chennai",
+    "type": "Self-Financing",
+    "established": 2001,
+    "nirf_rank": 104,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 95000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.2,
+    "highest_placement_lpa": 11.0,
+    "placement_pct": 79.5,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 63,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 160.0,
+      "BC": 155.9,
+      "BCM": 154.0,
+      "MBC": 154.4,
+      "SC": 141.5,
+      "SCA": 136.9,
+      "ST": 126.9
+    }
+  },
+  {
+    "code": "1413",
+    "name": "Sri Venkateswara College of Technology, Vadakal",
+    "short_name": "Sri Venkateswara College of Technology",
+    "district": "Sriperumbudur",
+    "type": "Self-Financing",
+    "established": 2009,
+    "nirf_rank": 78,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 90000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.0,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 76.8,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 66,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 154.0,
+      "BC": 150.8,
+      "BCM": 148.2,
+      "MBC": 146.9,
+      "SC": 130.6,
+      "SCA": 129.6,
+      "ST": 119.1
+    }
+  },
+  {
+    "code": "1419",
+    "name": "Sri Ramanujar Engineering College, Vandalur",
+    "short_name": "Sri Ramanujar Engineering College",
+    "district": "Chennai",
+    "type": "Self-Financing",
+    "established": 2002,
+    "nirf_rank": 198,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 90000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.0,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 77.2,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 88,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 155.0,
+      "BC": 151.4,
+      "BCM": 149.9,
+      "MBC": 147.2,
+      "SC": 134.5,
+      "SCA": 131.0,
+      "ST": 123.9
+    }
+  },
+  {
+    "code": "2377",
+    "name": "PSG College of Arts and Science (Computer Applications)",
+    "short_name": "PSG College of Arts and Science (Computer Applications)",
+    "district": "Coimbatore",
+    "type": "Govt-Aided / Autonomous",
+    "established": 1947,
+    "nirf_rank": 95,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 60000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 6.5,
+    "highest_placement_lpa": 20.0,
+    "placement_pct": 90.8,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 116,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 185.0,
+      "BC": 181.5,
+      "BCM": 179.5,
+      "MBC": 178.0,
+      "SC": 165.6,
+      "SCA": 158.5,
+      "ST": 151.7
+    }
+  },
+  {
+    "code": "2603",
+    "name": "Government College of Engineering, Bodinayakkanur",
+    "short_name": "Government College of Engineering",
+    "district": "Theni",
+    "type": "Government",
+    "established": 2012,
+    "nirf_rank": 87,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 38000,
+    "hostel_fee_per_year": 55000,
+    "avg_placement_lpa": 5.0,
+    "highest_placement_lpa": 14.0,
+    "placement_pct": 85.8,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 27,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 174.0,
+      "BC": 170.7,
+      "BCM": 168.7,
+      "MBC": 165.7,
+      "SC": 155.1,
+      "SCA": 150.7,
+      "ST": 142.5
+    }
+  },
+  {
+    "code": "2622",
+    "name": "K.S.R. Institute for Engineering and Technology",
+    "short_name": "K.S.R. Institute for Engineering and Technology",
+    "district": "Namakkal",
+    "type": "Autonomous / Self-Financing",
+    "established": 2011,
+    "nirf_rank": 208,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 115000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.0,
+    "highest_placement_lpa": 16.0,
+    "placement_pct": 84.9,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 32,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 172.0,
+      "BC": 168.2,
+      "BCM": 167.9,
+      "MBC": 166.4,
+      "SC": 150.2,
+      "SCA": 147.5,
+      "ST": 139.2
+    }
+  },
+  {
+    "code": "2628",
+    "name": "Paavai Engineering College, Pachal",
+    "short_name": "Paavai Engineering College",
+    "district": "Namakkal",
+    "type": "Autonomous / Self-Financing",
+    "established": 2001,
+    "nirf_rank": 127,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 110000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.8,
+    "highest_placement_lpa": 15.0,
+    "placement_pct": 84.0,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 85,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 170.0,
+      "BC": 166.7,
+      "BCM": 164.6,
+      "MBC": 161.9,
+      "SC": 149.0,
+      "SCA": 146.5,
+      "ST": 137.0
+    }
+  },
+  {
+    "code": "2634",
+    "name": "Excel Engineering College, Komarapalayam",
+    "short_name": "Excel Engineering College",
+    "district": "Namakkal",
+    "type": "Autonomous / Self-Financing",
+    "established": 2007,
+    "nirf_rank": 154,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 105000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.6,
+    "highest_placement_lpa": 14.0,
+    "placement_pct": 83.1,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 73,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 168.0,
+      "BC": 163.8,
+      "BCM": 163.5,
+      "MBC": 160.4,
+      "SC": 149.5,
+      "SCA": 143.9,
+      "ST": 132.6
+    }
+  },
+  {
+    "code": "2704",
+    "name": "Coimbatore Institute of Engineering and Technology (CIET)",
+    "short_name": "Coimbatore Institute of Engineering and Technology (CIET)",
+    "district": "Coimbatore",
+    "type": "Autonomous / Self-Financing",
+    "established": 2001,
+    "nirf_rank": 142,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 115000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.0,
+    "highest_placement_lpa": 16.0,
+    "placement_pct": 85.3,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 27,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 173.0,
+      "BC": 169.6,
+      "BCM": 168.2,
+      "MBC": 167.0,
+      "SC": 152.8,
+      "SCA": 145.3,
+      "ST": 141.9
+    }
+  },
+  {
+    "code": "2706",
+    "name": "Dr. Mahalingam College of Engineering and Tech (MCET)",
+    "short_name": "Dr. Mahalingam College of Engineering and Tech (MCET)",
+    "district": "Pollachi",
+    "type": "Autonomous / Self-Financing",
+    "established": 1998,
+    "nirf_rank": 190,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 135000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.9,
+    "highest_placement_lpa": 20.0,
+    "placement_pct": 88.5,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 95,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 180.0,
+      "BC": 177.3,
+      "BCM": 174.7,
+      "MBC": 174.5,
+      "SC": 159.2,
+      "SCA": 153.2,
+      "ST": 145.9
+    }
+  },
+  {
+    "code": "2707",
+    "name": "Erode Sengunthar Engineering College, Thudupathi",
+    "short_name": "Erode Sengunthar Engineering College",
+    "district": "Erode",
+    "type": "Autonomous / Self-Financing",
+    "established": 1996,
+    "nirf_rank": 191,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 105000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.6,
+    "highest_placement_lpa": 14.0,
+    "placement_pct": 82.7,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 27,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 167.0,
+      "BC": 163.3,
+      "BCM": 162.9,
+      "MBC": 161.3,
+      "SC": 145.5,
+      "SCA": 142.3,
+      "ST": 136.0
+    }
+  },
+  {
+    "code": "2710",
+    "name": "Karpagam Institute of Technology, Seerapalayam",
+    "short_name": "Karpagam Institute of Technology",
+    "district": "Coimbatore",
+    "type": "Self-Financing",
+    "established": 2007,
+    "nirf_rank": 110,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 115000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.0,
+    "highest_placement_lpa": 15.0,
+    "placement_pct": 84.9,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 56,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 172.0,
+      "BC": 168.8,
+      "BCM": 167.8,
+      "MBC": 164.4,
+      "SC": 152.4,
+      "SCA": 144.6,
+      "ST": 137.1
+    }
+  },
+  {
+    "code": "2715",
+    "name": "Nandha Engineering College, Vaikkaalmedu",
+    "short_name": "Nandha Engineering College",
+    "district": "Erode",
+    "type": "Autonomous / Self-Financing",
+    "established": 2001,
+    "nirf_rank": 203,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 110000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.8,
+    "highest_placement_lpa": 14.0,
+    "placement_pct": 83.5,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 68,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 169.0,
+      "BC": 165.0,
+      "BCM": 164.3,
+      "MBC": 161.2,
+      "SC": 148.9,
+      "SCA": 145.3,
+      "ST": 134.3
+    }
+  },
+  {
+    "code": "2723",
+    "name": "Sasurie College of Engineering, Vijayamangalam",
+    "short_name": "Sasurie College of Engineering",
+    "district": "Tiruppur",
+    "type": "Self-Financing",
+    "established": 2001,
+    "nirf_rank": 132,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 95000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.2,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 78.6,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 92,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 158.0,
+      "BC": 154.9,
+      "BCM": 152.8,
+      "MBC": 152.1,
+      "SC": 138.2,
+      "SCA": 132.0,
+      "ST": 127.5
+    }
+  },
+  {
+    "code": "2734",
+    "name": "SNS College of Engineering, Kurumbapalayam",
+    "short_name": "SNS College of Engineering",
+    "district": "Coimbatore",
+    "type": "Autonomous / Self-Financing",
+    "established": 2007,
+    "nirf_rank": 169,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 115000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.0,
+    "highest_placement_lpa": 16.0,
+    "placement_pct": 85.3,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 95,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 173.0,
+      "BC": 169.3,
+      "BCM": 168.1,
+      "MBC": 165.7,
+      "SC": 151.2,
+      "SCA": 146.0,
+      "ST": 139.7
+    }
+  },
+  {
+    "code": "2739",
+    "name": "Sri Eshwar College of Engineering, Kinathukadavu",
+    "short_name": "Sri Eshwar College of Engineering",
+    "district": "Coimbatore",
+    "type": "Autonomous / Self-Financing",
+    "established": 2008,
+    "nirf_rank": 146,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 145000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 7.5,
+    "highest_placement_lpa": 30.0,
+    "placement_pct": 91.7,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 49,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 187.0,
+      "BC": 183.3,
+      "BCM": 180.9,
+      "MBC": 181.1,
+      "SC": 164.9,
+      "SCA": 163.7,
+      "ST": 151.6
+    }
+  },
+  {
+    "code": "2740",
+    "name": "Hindusthan College of Engineering and Technology (HICET)",
+    "short_name": "Hindusthan College of Engineering and Technology (HICET)",
+    "district": "Coimbatore",
+    "type": "Autonomous / Self-Financing",
+    "established": 2000,
+    "nirf_rank": 82,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 125000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.5,
+    "highest_placement_lpa": 18.0,
+    "placement_pct": 87.2,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 76,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 177.0,
+      "BC": 174.3,
+      "BCM": 172.1,
+      "MBC": 170.4,
+      "SC": 155.6,
+      "SCA": 153.0,
+      "ST": 146.3
+    }
+  },
+  {
+    "code": "2743",
+    "name": "Dhanalakshmi Srinivasan College of Engineering",
+    "short_name": "Dhanalakshmi Srinivasan College of Engineering",
+    "district": "Coimbatore",
+    "type": "Self-Financing",
+    "established": 2008,
+    "nirf_rank": 121,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 100000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.4,
+    "highest_placement_lpa": 12.0,
+    "placement_pct": 81.3,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 40,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 164.0,
+      "BC": 160.8,
+      "BCM": 159.3,
+      "MBC": 156.0,
+      "SC": 142.1,
+      "SCA": 140.6,
+      "ST": 129.9
+    }
+  },
+  {
+    "code": "2744",
+    "name": "Adithya Institute of Technology, Kurumbapalayam",
+    "short_name": "Adithya Institute of Technology",
+    "district": "Coimbatore",
+    "type": "Self-Financing",
+    "established": 2008,
+    "nirf_rank": 168,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 95000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.2,
+    "highest_placement_lpa": 11.0,
+    "placement_pct": 79.5,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 30,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 160.0,
+      "BC": 157.1,
+      "BCM": 155.0,
+      "MBC": 152.5,
+      "SC": 138.8,
+      "SCA": 133.1,
+      "ST": 127.3
+    }
+  },
+  {
+    "code": "2747",
+    "name": "Shree Venkateshwara Hi-Tech Engineering College",
+    "short_name": "Shree Venkateshwara Hi-Tech Engineering College",
+    "district": "Erode",
+    "type": "Autonomous / Self-Financing",
+    "established": 2008,
+    "nirf_rank": 205,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 100000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.5,
+    "highest_placement_lpa": 12.0,
+    "placement_pct": 81.8,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 111,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 165.0,
+      "BC": 160.9,
+      "BCM": 159.0,
+      "MBC": 156.7,
+      "SC": 142.9,
+      "SCA": 141.4,
+      "ST": 134.5
+    }
+  },
+  {
+    "code": "2750",
+    "name": "KIT-Kalaignar Karunanidhi Institute of Technology",
+    "short_name": "KIT-Kalaignar Karunanidhi Institute of Technology",
+    "district": "Coimbatore",
+    "type": "Autonomous / Self-Financing",
+    "established": 2008,
+    "nirf_rank": 209,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 125000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 5.6,
+    "highest_placement_lpa": 18.0,
+    "placement_pct": 86.7,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 34,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 176.0,
+      "BC": 173.0,
+      "BCM": 170.2,
+      "MBC": 170.1,
+      "SC": 154.1,
+      "SCA": 150.3,
+      "ST": 144.4
+    }
+  },
+  {
+    "code": "3801",
+    "name": "Anna University Regional Campus, Tiruchirappalli",
+    "short_name": "Anna University Regional Campus",
+    "district": "Tiruchirappalli",
+    "type": "University Campus / Government",
+    "established": 2007,
+    "nirf_rank": 114,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 45000,
+    "hostel_fee_per_year": 55000,
+    "avg_placement_lpa": 6.0,
+    "highest_placement_lpa": 18.0,
+    "placement_pct": 89.8,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 83,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 183.0,
+      "BC": 178.8,
+      "BCM": 176.6,
+      "MBC": 177.3,
+      "SC": 163.4,
+      "SCA": 159.8,
+      "ST": 152.0
+    }
+  },
+  {
+    "code": "3806",
+    "name": "J.J. College of Engineering and Technology",
+    "short_name": "J.J. College of Engineering and Technology",
+    "district": "Tiruchirappalli",
+    "type": "Self-Financing",
+    "established": 1994,
+    "nirf_rank": 141,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 95000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.2,
+    "highest_placement_lpa": 11.0,
+    "placement_pct": 79.5,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 27,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 160.0,
+      "BC": 156.2,
+      "BCM": 155.1,
+      "MBC": 153.6,
+      "SC": 141.6,
+      "SCA": 132.7,
+      "ST": 129.9
+    }
+  },
+  {
+    "code": "3807",
+    "name": "K.A.V.R. Engineering College",
+    "short_name": "K.A.V.R. Engineering College",
+    "district": "Tiruchirappalli",
+    "type": "Self-Financing",
+    "established": 2009,
+    "nirf_rank": 81,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 90000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.0,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 77.2,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 101,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 155.0,
+      "BC": 151.1,
+      "BCM": 148.6,
+      "MBC": 147.7,
+      "SC": 133.0,
+      "SCA": 127.1,
+      "ST": 124.4
+    }
+  },
+  {
+    "code": "3810",
+    "name": "M.A.M. College of Engineering, Siruganur",
+    "short_name": "M.A.M. College of Engineering",
+    "district": "Tiruchirappalli",
+    "type": "Self-Financing",
+    "established": 1998,
+    "nirf_rank": 128,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 95000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.2,
+    "highest_placement_lpa": 11.0,
+    "placement_pct": 80.4,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 71,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 162.0,
+      "BC": 157.8,
+      "BCM": 155.8,
+      "MBC": 154.9,
+      "SC": 142.2,
+      "SCA": 135.6,
+      "ST": 126.2
+    }
+  },
+  {
+    "code": "3817",
+    "name": "Roever Engineering College, Elambalur",
+    "short_name": "Roever Engineering College",
+    "district": "Perambalur",
+    "type": "Self-Financing",
+    "established": 2001,
+    "nirf_rank": 158,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 90000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.0,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 77.2,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 25,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 155.0,
+      "BC": 152.1,
+      "BCM": 150.5,
+      "MBC": 147.0,
+      "SC": 134.8,
+      "SCA": 131.7,
+      "ST": 119.0
+    }
+  },
+  {
+    "code": "3825",
+    "name": "St. Joseph's College of Engineering and Technology",
+    "short_name": "St. Joseph's College of Engineering and Technology",
+    "district": "Thanjavur",
+    "type": "Self-Financing",
+    "established": 2007,
+    "nirf_rank": 192,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 95000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.2,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 78.6,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 98,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 158.0,
+      "BC": 153.7,
+      "BCM": 153.5,
+      "MBC": 149.9,
+      "SC": 138.9,
+      "SCA": 135.0,
+      "ST": 125.2
+    }
+  },
+  {
+    "code": "4959",
+    "name": "Kalasalingam Academy of Research and Education",
+    "short_name": "Kalasalingam Academy of Research and Education",
+    "district": "Virudhunagar",
+    "type": "Deemed / Self-Financing",
+    "established": 1984,
+    "nirf_rank": 104,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 140000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 6.5,
+    "highest_placement_lpa": 25.0,
+    "placement_pct": 88.5,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 75,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 180.0,
+      "BC": 175.8,
+      "BCM": 173.7,
+      "MBC": 173.3,
+      "SC": 161.9,
+      "SCA": 152.0,
+      "ST": 149.0
+    }
+  },
+  {
+    "code": "4965",
+    "name": "P.S.N. College of Engineering and Technology",
+    "short_name": "P.S.N. College of Engineering and Technology",
+    "district": "Tirunelveli",
+    "type": "Autonomous / Self-Financing",
+    "established": 2001,
+    "nirf_rank": 72,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 105000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.6,
+    "highest_placement_lpa": 13.0,
+    "placement_pct": 82.2,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 101,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 166.0,
+      "BC": 162.9,
+      "BCM": 159.7,
+      "MBC": 157.6,
+      "SC": 146.0,
+      "SCA": 141.1,
+      "ST": 134.4
+    }
+  },
+  {
+    "code": "4980",
+    "name": "SCAD College of Engineering and Technology",
+    "short_name": "SCAD College of Engineering and Technology",
+    "district": "Tirunelveli",
+    "type": "Self-Financing",
+    "established": 2001,
+    "nirf_rank": 71,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 95000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.2,
+    "highest_placement_lpa": 11.0,
+    "placement_pct": 79.5,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 109,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 160.0,
+      "BC": 157.2,
+      "BCM": 154.3,
+      "MBC": 153.3,
+      "SC": 136.1,
+      "SCA": 134.6,
+      "ST": 127.0
+    }
+  },
+  {
+    "code": "5904",
+    "name": "Latha Mathavan Engineering College, Kidaripatti",
+    "short_name": "Latha Mathavan Engineering College",
+    "district": "Madurai",
+    "type": "Self-Financing",
+    "established": 2007,
+    "nirf_rank": 213,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 90000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.0,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 75.9,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 86,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 152.0,
+      "BC": 149.4,
+      "BCM": 147.5,
+      "MBC": 146.5,
+      "SC": 130.6,
+      "SCA": 128.5,
+      "ST": 120.5
+    }
+  },
+  {
+    "code": "5910",
+    "name": "Pandian Saraswathi Yadav Engineering College",
+    "short_name": "Pandian Saraswathi Yadav Engineering College",
+    "district": "Sivagangai",
+    "type": "Self-Financing",
+    "established": 2000,
+    "nirf_rank": 129,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 95000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.2,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 78.6,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 92,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 158.0,
+      "BC": 155.5,
+      "BCM": 152.9,
+      "MBC": 151.8,
+      "SC": 137.9,
+      "SCA": 130.9,
+      "ST": 127.4
+    }
+  },
+  {
+    "code": "5911",
+    "name": "P.T.R. College of Engineering and Technology",
+    "short_name": "P.T.R. College of Engineering and Technology",
+    "district": "Madurai",
+    "type": "Self-Financing",
+    "established": 2001,
+    "nirf_rank": 154,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 90000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.0,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 76.8,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 51,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 154.0,
+      "BC": 151.5,
+      "BCM": 147.8,
+      "MBC": 147.4,
+      "SC": 131.9,
+      "SCA": 128.7,
+      "ST": 123.2
+    }
+  },
+  {
+    "code": "5912",
+    "name": "Raja College of Engineering and Technology",
+    "short_name": "Raja College of Engineering and Technology",
+    "district": "Madurai",
+    "type": "Self-Financing",
+    "established": 1995,
+    "nirf_rank": 175,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 90000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.0,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 76.3,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 41,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 153.0,
+      "BC": 149.3,
+      "BCM": 147.1,
+      "MBC": 145.2,
+      "SC": 130.5,
+      "SCA": 125.6,
+      "ST": 119.3
+    }
+  },
+  {
+    "code": "5919",
+    "name": "Solamalai College of Engineering, Veerapanjan",
+    "short_name": "Solamalai College of Engineering",
+    "district": "Madurai",
+    "type": "Self-Financing",
+    "established": 1995,
+    "nirf_rank": 112,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 95000,
+    "hostel_fee_per_year": 70000,
+    "avg_placement_lpa": 4.2,
+    "highest_placement_lpa": 11.0,
+    "placement_pct": 79.0,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Zoho"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "AI&DS"
+    ],
+    "campus_size_acres": 110,
+    "infrastructure": [
+      "Smart Classrooms",
+      "Computing Labs",
+      "Hostels",
+      "Library",
+      "Wi-Fi Campus"
+    ],
+    "base_cutoff_cse": {
+      "OC": 159.0,
+      "BC": 156.0,
+      "BCM": 153.2,
+      "MBC": 152.5,
+      "SC": 136.0,
+      "SCA": 135.0,
+      "ST": 125.0
+    }
+  },
+  {
+    "code": "3464",
+    "name": "Government College of Engineering, Sengipatti, Thanjavur",
+    "short_name": "GCE Thanjavur",
+    "district": "Thanjavur",
+    "type": "Government",
+    "established": 2013,
+    "nirf_rank": null,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 38000,
+    "hostel_fee_per_year": 22000,
+    "avg_placement_lpa": 5.2,
+    "highest_placement_lpa": 12.0,
+    "placement_pct": 82,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "BHEL",
+      "L&T"
+    ],
+    "courses": [
+      "CSE",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Civil"
+    ],
+    "campus_size_acres": 357,
+    "infrastructure": [
+      "High-Performance Computing Lab",
+      "Smart Classrooms",
+      "Hostels",
+      "Gym",
+      "Central Library",
+      "Sports Complex"
+    ],
+    "base_cutoff_cse": {
+      "OC": 182.5,
+      "BC": 178.0,
+      "BCM": 175.5,
+      "MBC": 173.0,
+      "SC": 152.0,
+      "SCA": 142.0,
+      "ST": 135.0
+    }
+  },
+  {
+    "code": "1322",
+    "name": "DMI College of Engineering, Palanchur, Chennai",
+    "short_name": "DMI College of Engineering",
+    "district": "Chennai",
+    "type": "Affiliated Self-Financing",
+    "established": 2001,
+    "nirf_rank": 175,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 110000,
+    "hostel_fee_per_year": 65000,
+    "avg_placement_lpa": 4.8,
+    "highest_placement_lpa": 10.5,
+    "placement_pct": 84,
+    "top_recruiters": [
+      "Wipro",
+      "Accenture",
+      "Zoho",
+      "HCL",
+      "TCS"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "AI&DS",
+      "ECE",
+      "Mechanical"
+    ],
+    "campus_size_acres": 55,
+    "infrastructure": [
+      "Modern Computing Center",
+      "Digital Library",
+      "Boys & Girls Hostel",
+      "Auditorium",
+      "ATM"
+    ],
+    "base_cutoff_cse": {
+      "OC": 168.0,
+      "BC": 162.5,
+      "BCM": 158.0,
+      "MBC": 156.0,
+      "SC": 135.0,
+      "SCA": 125.0,
+      "ST": 118.0
+    }
+  },
+  {
+    "code": "1412",
+    "name": "T.J. Institute of Technology, OMR, Chennai",
+    "short_name": "TJIT Chennai",
+    "district": "Chennai",
+    "type": "Affiliated Self-Financing",
+    "established": 2001,
+    "nirf_rank": 195,
+    "naac_grade": "B+",
+    "tuition_fee_per_year": 95000,
+    "hostel_fee_per_year": 60000,
+    "avg_placement_lpa": 4.5,
+    "highest_placement_lpa": 9.0,
+    "placement_pct": 80,
+    "top_recruiters": [
+      "Capgemini",
+      "Hexaware",
+      "Tech Mahindra",
+      "Infosys"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Civil"
+    ],
+    "campus_size_acres": 30,
+    "infrastructure": [
+      "OMR IT Corridor Access",
+      "Computer Labs",
+      "Hostel",
+      "Transport",
+      "Cafeteria"
+    ],
+    "base_cutoff_cse": {
+      "OC": 162.0,
+      "BC": 156.0,
+      "BCM": 151.0,
+      "MBC": 149.0,
+      "SC": 128.0,
+      "SCA": 118.0,
+      "ST": 110.0
+    }
+  },
+  {
+    "code": "2737",
+    "name": "Sri Shanmugha College of Engineering and Technology, Sankari, Salem",
+    "short_name": "Sri Shanmugha College",
+    "district": "Salem",
+    "type": "Affiliated Self-Financing",
+    "established": 2011,
+    "nirf_rank": 180,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 105000,
+    "hostel_fee_per_year": 60000,
+    "avg_placement_lpa": 5.0,
+    "highest_placement_lpa": 11.5,
+    "placement_pct": 83,
+    "top_recruiters": [
+      "Infosys",
+      "Mindtree",
+      "Zoho",
+      "TCS",
+      "Wipro"
+    ],
+    "courses": [
+      "CSE",
+      "AI&DS",
+      "ECE",
+      "Mechanical",
+      "Agriculture"
+    ],
+    "campus_size_acres": 35,
+    "infrastructure": [
+      "Modern Robotics Lab",
+      "Smart Classrooms",
+      "Separate Hostels",
+      "Gym",
+      "Transport Fleet"
+    ],
+    "base_cutoff_cse": {
+      "OC": 165.0,
+      "BC": 159.0,
+      "BCM": 154.0,
+      "MBC": 152.0,
+      "SC": 130.0,
+      "SCA": 120.0,
+      "ST": 112.0
+    }
+  },
+  {
+    "code": "2625",
+    "name": "Government College of Engineering, Settikarai, Dharmapuri",
+    "short_name": "GCE Dharmapuri",
+    "district": "Dharmapuri",
+    "type": "Government",
+    "established": 2013,
+    "nirf_rank": null,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 38000,
+    "hostel_fee_per_year": 20000,
+    "avg_placement_lpa": 5.0,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 80,
+    "top_recruiters": [
+      "Cognizant",
+      "Wipro",
+      "TVS",
+      "L&T",
+      "Infosys"
+    ],
+    "courses": [
+      "CSE",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Civil"
+    ],
+    "campus_size_acres": 100,
+    "infrastructure": [
+      "State Govt Campus",
+      "Modern Computer Center",
+      "Hostel",
+      "Sports Grounds",
+      "Auditorium"
+    ],
+    "base_cutoff_cse": {
+      "OC": 180.0,
+      "BC": 175.5,
+      "BCM": 171.0,
+      "MBC": 169.5,
+      "SC": 148.0,
+      "SCA": 138.0,
+      "ST": 130.0
+    }
+  },
+  {
+    "code": "4957",
+    "name": "Jayaraj Annapackiam CSI College of Engineering, Nazareth, Thoothukudi",
+    "short_name": "JACSI Engineering College",
+    "district": "Thoothukudi",
+    "type": "Affiliated Self-Financing",
+    "established": 2001,
+    "nirf_rank": 210,
+    "naac_grade": "B+",
+    "tuition_fee_per_year": 90000,
+    "hostel_fee_per_year": 50000,
+    "avg_placement_lpa": 4.2,
+    "highest_placement_lpa": 8.5,
+    "placement_pct": 78,
+    "top_recruiters": [
+      "Sutherland",
+      "Tech Mahindra",
+      "Infosys",
+      "TCS"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "Mechanical"
+    ],
+    "campus_size_acres": 25,
+    "infrastructure": [
+      "High Speed Internet",
+      "Air Conditioned Labs",
+      "Hostels",
+      "Library",
+      "Chapel"
+    ],
+    "base_cutoff_cse": {
+      "OC": 158.0,
+      "BC": 152.0,
+      "BCM": 147.0,
+      "MBC": 145.0,
+      "SC": 125.0,
+      "SCA": 115.0,
+      "ST": 108.0
+    }
+  },
+  {
+    "code": "4992",
+    "name": "Infant Jesus College of Engineering, Keelavallanadu, Thoothukudi",
+    "short_name": "Infant Jesus College",
+    "district": "Thoothukudi",
+    "type": "Affiliated Self-Financing",
+    "established": 2001,
+    "nirf_rank": 220,
+    "naac_grade": "B",
+    "tuition_fee_per_year": 85000,
+    "hostel_fee_per_year": 48000,
+    "avg_placement_lpa": 4.0,
+    "highest_placement_lpa": 7.5,
+    "placement_pct": 76,
+    "top_recruiters": [
+      "Foxconn",
+      "CSS Corp",
+      "HCL",
+      "Sutherland"
+    ],
+    "courses": [
+      "CSE",
+      "ECE",
+      "EEE",
+      "Mechanical"
+    ],
+    "campus_size_acres": 30,
+    "infrastructure": [
+      "Computer Labs",
+      "Hostels",
+      "Playground",
+      "Library",
+      "College Bus Service"
+    ],
+    "base_cutoff_cse": {
+      "OC": 154.0,
+      "BC": 148.0,
+      "BCM": 143.0,
+      "MBC": 140.0,
+      "SC": 120.0,
+      "SCA": 110.0,
+      "ST": 105.0
+    }
+  },
+  {
+    "code": "3812",
+    "name": "K. Ramakrishnan College of Technology (Autonomous), Samayapuram, Tiruchirappalli",
+    "short_name": "KRCT Trichy",
+    "district": "Tiruchirappalli",
+    "type": "Autonomous",
+    "established": 2010,
+    "nirf_rank": 145,
+    "naac_grade": "A+",
+    "tuition_fee_per_year": 130000,
+    "hostel_fee_per_year": 68000,
+    "avg_placement_lpa": 6.2,
+    "highest_placement_lpa": 16.0,
+    "placement_pct": 89,
+    "top_recruiters": [
+      "Kaar Technologies",
+      "Zoho",
+      "TCS",
+      "Renault Nissan",
+      "Virtusa"
+    ],
+    "courses": [
+      "CSE",
+      "AI&DS",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical"
+    ],
+    "campus_size_acres": 45,
+    "infrastructure": [
+      "Center for AI & Cloud",
+      "Robotics Lab",
+      "Modern Hostels",
+      "Gym",
+      "Digital Learning Studio"
+    ],
+    "base_cutoff_cse": {
+      "OC": 179.0,
+      "BC": 174.0,
+      "BCM": 170.0,
+      "MBC": 168.0,
+      "SC": 146.0,
+      "SCA": 136.0,
+      "ST": 128.0
+    }
+  },
+  {
+    "code": "3829",
+    "name": "M.I.E.T. Engineering College, Gundur, Tiruchirappalli",
+    "short_name": "MIET Engineering College",
+    "district": "Tiruchirappalli",
+    "type": "Affiliated Self-Financing",
+    "established": 1998,
+    "nirf_rank": 185,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 100000,
+    "hostel_fee_per_year": 55000,
+    "avg_placement_lpa": 4.6,
+    "highest_placement_lpa": 9.5,
+    "placement_pct": 81,
+    "top_recruiters": [
+      "Omega Healthcare",
+      "HCL",
+      "Wipro",
+      "TCS"
+    ],
+    "courses": [
+      "CSE",
+      "AI&DS",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Civil"
+    ],
+    "campus_size_acres": 56,
+    "infrastructure": [
+      "Trichy Airport Road Campus",
+      "Central Library",
+      "Hostel",
+      "Sports Pavilion",
+      "Auditorium"
+    ],
+    "base_cutoff_cse": {
+      "OC": 164.0,
+      "BC": 158.0,
+      "BCM": 155.0,
+      "MBC": 150.0,
+      "SC": 130.0,
+      "SCA": 120.0,
+      "ST": 112.0
+    }
+  },
+  {
+    "code": "5988",
+    "name": "Syed Ammal Engineering College, Ramanathapuram",
+    "short_name": "Syed Ammal College",
+    "district": "Ramanathapuram",
+    "type": "Affiliated Self-Financing",
+    "established": 1998,
+    "nirf_rank": 190,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 95000,
+    "hostel_fee_per_year": 50000,
+    "avg_placement_lpa": 4.5,
+    "highest_placement_lpa": 8.5,
+    "placement_pct": 79,
+    "top_recruiters": [
+      "Infosys",
+      "CTS",
+      "Sutherland",
+      "Capgemini"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "ECE",
+      "EEE",
+      "Mechanical"
+    ],
+    "campus_size_acres": 52,
+    "infrastructure": [
+      "Ramanathapuram Coastal Zone Campus",
+      "Computing Center",
+      "Hostels",
+      "Sports Ground"
+    ],
+    "base_cutoff_cse": {
+      "OC": 160.0,
+      "BC": 154.0,
+      "BCM": 150.0,
+      "MBC": 147.0,
+      "SC": 126.0,
+      "SCA": 116.0,
+      "ST": 110.0
+    }
+  },
+  {
+    "code": "1501",
+    "name": "Adhiparasakthi Engineering College (Autonomous), Melmaruvathur",
+    "short_name": "Adhiparasakthi Engg College",
+    "district": "Chengalpattu",
+    "type": "Autonomous",
+    "established": 1984,
+    "nirf_rank": 160,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 120000,
+    "hostel_fee_per_year": 65000,
+    "avg_placement_lpa": 5.4,
+    "highest_placement_lpa": 12.0,
+    "placement_pct": 85,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Wipro",
+      "Ashok Leyland",
+      "Valeo"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "AI&DS",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Chemical"
+    ],
+    "campus_size_acres": 45,
+    "infrastructure": [
+      "Automotive Research Lab",
+      "Central Computing Facility",
+      "Temple Town Campus",
+      "Hostels",
+      "Hospital Access"
+    ],
+    "base_cutoff_cse": {
+      "OC": 172.0,
+      "BC": 166.5,
+      "BCM": 162.0,
+      "MBC": 160.0,
+      "SC": 140.0,
+      "SCA": 130.0,
+      "ST": 122.0
+    }
+  },
+  {
+    "code": "1511",
+    "name": "Ranipettai Engineering College, Walajah, Ranipet",
+    "short_name": "Ranipettai Engg College",
+    "district": "Ranipet",
+    "type": "Affiliated Self-Financing",
+    "established": 1999,
+    "nirf_rank": 225,
+    "naac_grade": "B+",
+    "tuition_fee_per_year": 85000,
+    "hostel_fee_per_year": 45000,
+    "avg_placement_lpa": 4.0,
+    "highest_placement_lpa": 7.0,
+    "placement_pct": 75,
+    "top_recruiters": [
+      "Lucas TVS",
+      "Tata Elxsi",
+      "HCL",
+      "TVS"
+    ],
+    "courses": [
+      "CSE",
+      "ECE",
+      "EEE",
+      "Mechanical"
+    ],
+    "campus_size_acres": 25,
+    "infrastructure": [
+      "Ranipet Industrial Corridor Campus",
+      "Computer Center",
+      "Hostel",
+      "Library"
+    ],
+    "base_cutoff_cse": {
+      "OC": 152.0,
+      "BC": 146.0,
+      "BCM": 141.0,
+      "MBC": 138.0,
+      "SC": 118.0,
+      "SCA": 108.0,
+      "ST": 100.0
+    }
+  },
+  {
+    "code": "2613",
+    "name": "K.S.R. College of Engineering (Autonomous), Tiruchengode, Namakkal",
+    "short_name": "KSR College of Engineering",
+    "district": "Namakkal",
+    "type": "Autonomous",
+    "established": 2001,
+    "nirf_rank": 130,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 125000,
+    "hostel_fee_per_year": 65000,
+    "avg_placement_lpa": 6.0,
+    "highest_placement_lpa": 14.0,
+    "placement_pct": 88,
+    "top_recruiters": [
+      "Infosys",
+      "Capgemini",
+      "Zoho",
+      "Virtusa",
+      "CTS"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "AI&DS",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Automobile"
+    ],
+    "campus_size_acres": 120,
+    "infrastructure": [
+      "KSR Kalvi Nagar Campus",
+      "IoT Labs",
+      "AC Conference Halls",
+      "Hostels",
+      "Sports Arena"
+    ],
+    "base_cutoff_cse": {
+      "OC": 178.0,
+      "BC": 173.0,
+      "BCM": 169.0,
+      "MBC": 167.0,
+      "SC": 145.0,
+      "SCA": 135.0,
+      "ST": 126.0
+    }
+  },
+  {
+    "code": "1110",
+    "name": "Prathyusha Institute of Technology and Management, Aranvoyalkuppam",
+    "short_name": "PITM Thiruvallur",
+    "district": "Thiruvallur",
+    "type": "Autonomous",
+    "established": 2001,
+    "nirf_rank": 170,
+    "naac_grade": "A",
+    "tuition_fee_per_year": 115000,
+    "hostel_fee_per_year": 60000,
+    "avg_placement_lpa": 5.0,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 82,
+    "top_recruiters": [
+      "Wipro",
+      "Mindtree",
+      "Tech Mahindra",
+      "TCS"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "AI&DS",
+      "ECE",
+      "Biotechnology"
+    ],
+    "campus_size_acres": 48,
+    "infrastructure": [
+      "Biotech Innovation Lab",
+      "Data Analytics Lab",
+      "Hostels",
+      "Auditorium",
+      "Library"
+    ],
+    "base_cutoff_cse": {
+      "OC": 166.0,
+      "BC": 160.0,
+      "BCM": 156.0,
+      "MBC": 154.0,
+      "SC": 132.0,
+      "SCA": 122.0,
+      "ST": 115.0
+    }
+  },
+  {
+    "code": "1101",
+    "name": "Aalim Muhammed Salegh College of Engineering, Avadi, Chennai",
+    "short_name": "AMS College of Engineering",
+    "district": "Chennai",
+    "type": "Affiliated Self-Financing",
+    "established": 2000,
+    "nirf_rank": 198,
+    "naac_grade": "B++",
+    "tuition_fee_per_year": 105000,
+    "hostel_fee_per_year": 55000,
+    "avg_placement_lpa": 4.6,
+    "highest_placement_lpa": 10.0,
+    "placement_pct": 82,
+    "top_recruiters": [
+      "TCS",
+      "Cognizant",
+      "Infosys",
+      "Wipro",
+      "Hexaware"
+    ],
+    "courses": [
+      "CSE",
+      "IT",
+      "AI&DS",
+      "ECE",
+      "EEE",
+      "Mechanical",
+      "Civil"
+    ],
+    "campus_size_acres": 40,
+    "infrastructure": [
+      "Nizara Educational Campus",
+      "Central Computing Facility",
+      "Hostels",
+      "Gym",
+      "Mosque",
+      "Auditorium"
+    ],
+    "base_cutoff_cse": {
+      "OC": 164.0,
+      "BC": 158.0,
+      "BCM": 156.0,
+      "MBC": 152.0,
+      "SC": 130.0,
+      "SCA": 120.0,
+      "ST": 112.0
+    }
+  }
+]
