@@ -4,8 +4,8 @@ __pycache__/
 .pytest_cache/
 *.log
 logs/
-models/
-data/
+data/app.db
+data/processed/*.tmp
 venv/
 .venv/
 .env

@@ -21,7 +21,9 @@ import {
   Check,
   Printer,
   FileText,
-  ListOrdered
+  ListOrdered,
+  UserCheck,
+  UserPlus
 } from 'lucide-react'
 import OfficialAllotmentSlipModal from '../components/OfficialAllotmentSlipModal'
 import ChoiceFillingOptimizer from '../components/ChoiceFillingOptimizer'

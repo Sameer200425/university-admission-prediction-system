@@ -10,7 +10,14 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-COLLEGES_FILE = BASE_DIR / "data" / "raw" / "tn_colleges_80_plus.json"
+CANDIDATE_COLLEGE_FILES = [
+    BASE_DIR / "data" / "raw" / "tn_colleges_80_plus.json",
+    Path.cwd() / "data" / "raw" / "tn_colleges_80_plus.json",
+    Path.cwd() / "backend" / "data" / "raw" / "tn_colleges_80_plus.json",
+    BASE_DIR.parent / "backend" / "data" / "raw" / "tn_colleges_80_plus.json",
+    BASE_DIR.parent / "frontend" / "src" / "data" / "colleges.json",
+    Path.cwd() / "frontend" / "src" / "data" / "colleges.json",
+]
 
 _COLLEGES_CACHE: List[Dict[str, Any]] = []
 
@@ -20,10 +27,16 @@ def load_all_colleges(force_reload: bool = False) -> List[Dict[str, Any]]:
     if _COLLEGES_CACHE and not force_reload:
         return _COLLEGES_CACHE
 
-    if COLLEGES_FILE.exists():
-        with open(COLLEGES_FILE, "r", encoding="utf-8") as f:
-            _COLLEGES_CACHE = json.load(f)
-            return _COLLEGES_CACHE
+    for target_path in CANDIDATE_COLLEGE_FILES:
+        if target_path.exists():
+            try:
+                with open(target_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    if isinstance(data, list) and len(data) > 0:
+                        _COLLEGES_CACHE = data
+                        return _COLLEGES_CACHE
+            except Exception as e:
+                print(f"Warning: could not parse colleges from {target_path}: {e}")
 
     return []
 

@@ -36,11 +36,21 @@ class PredictionAPI:
 
     def load_model(self) -> bool:
         """Load trained TNEA model bundle and assets"""
-        bundle_file = self.models_path / "tnea_prediction_bundle.joblib"
-        if not bundle_file.exists():
-            bundle_file = BUNDLE_PATH
+        candidate_paths = [
+            self.models_path / "tnea_prediction_bundle.joblib",
+            BUNDLE_PATH,
+            Path.cwd() / "models" / "tnea_prediction_bundle.joblib",
+            Path.cwd() / "backend" / "models" / "tnea_prediction_bundle.joblib",
+            BASE_DIR.parent / "backend" / "models" / "tnea_prediction_bundle.joblib",
+        ]
 
-        if bundle_file.exists():
+        bundle_file = None
+        for p in candidate_paths:
+            if p.exists():
+                bundle_file = p
+                break
+
+        if bundle_file and bundle_file.exists():
             try:
                 bundle = joblib.load(bundle_file)
                 self.rf_model = bundle.get("rf_classifier")
