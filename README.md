@@ -1,5 +1,8 @@
 # University Admission Prediction System (Tamil Nadu - TNEA)
 
+> 🌐 **Live Deployed Web Application**: [https://university-admission-prediction-sys.vercel.app/#/](https://university-admission-prediction-sys.vercel.app/#/)  
+> ⚡ **FastAPI Backend Service**: [https://uaps-backend-api.onrender.com/health](https://uaps-backend-api.onrender.com/health)
+
 A comprehensive machine learning and decision support system for predicting engineering college admission chances across Tamil Nadu. Calibrated directly from historical Tamil Nadu Engineering Admissions (TNEA) single-window counseling records (2019–2024), verified institutional criteria, and socio-economic scholarship schemes.
 
 ---
